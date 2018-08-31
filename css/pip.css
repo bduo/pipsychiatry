@@ -1,0 +1,1833 @@
+/*
+File Name: pip.css
+Programmer: Brandon El Haj
+*/
+
+	
+/*=== GLOBAL STYLE SECTION ===*/
+
+/* Global body styling */
+body {
+	color: #3f2500;
+	background-color: #fff;
+}
+
+/* Global Main styling */
+main {
+	padding-top: 70px;
+	position: relative;
+}
+
+/* Global Image styling */ 
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+/* Global Header Styling */
+h1 {
+	font-family: 'Barlow', sans-serif;
+	font-weight: 300;
+	font-size: 31px;
+	color: #007156;
+	margin-bottom: 6px;
+}
+
+/* Global paragraph styling */
+p {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 13px;
+	line-height: 18.3px;
+	font-weight: 400;
+}
+
+/* Fixes white gap on right side of screen in tablet and mobile screen sizes */
+.row {
+	margin-right: 0;
+	margin-left: 0;
+}
+
+/*=== HEADER SECTION ===*/
+
+/* Header styling and positioning */
+header {
+	background-color: #f7f5ef;
+	width: 100%;
+	height: 70px;
+	line-height: 1.25em;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 100;
+	display: inline-block;
+}
+
+ul {
+	list-style: none;
+}
+
+/* Styling for primary navigation links. */
+li {
+	float: left;
+	padding: 10px;
+	font-family: 'Barlow', sans-serif;
+	font-weight: 600;
+	font-size: 13px;
+}
+
+/* Color styling for primary links desktop version */
+li a:link {
+	color: #003b41;
+}
+
+/* Visited color styling for primary links desktop version */
+li a:visited {
+	color: #003b41;
+}
+
+/* Hover styling for primary links desktop version */
+li a:hover {
+	color: #3f2500;
+}
+
+/* Positioning for the Nav links */
+nav {
+	float: right;
+	padding: 20px;
+	vertical-align: middle;
+}
+
+/* Styling for smaller passion flower logo in top left corner */
+#logo {
+	margin: 15px;
+	float: left;
+	height: 40px;
+	width: 40px;
+	background: url(/assets/nav_logo.svg) no-repeat center;
+	display: block;
+	vertical-align: middle;
+}
+
+/* Hides hamburger menu and cross buttons for Desktop screen size */
+button {
+	display: none;
+}
+
+/* Hides Messenger app links for desktop and tablet navigation */
+.nav_apps {
+	display: none;
+}
+
+/*=== INTRO SECTION ===*/
+
+/* Container div for call to action buttons. */
+#container_intro {
+	text-align: center;
+}
+
+/* Services button svg file with dimensions 101px by 34px */
+#services_button {
+	background-image: url(/assets/services_button.svg);
+}
+
+/* Changes background image on button to hovered version */
+#services_button:hover {
+	background-image: url(/assets/services_button_hover.svg);
+}
+
+/* Contact button svg file with dimensions 101px by 34px */
+#contact_button, #contact_process_button {
+	background-image: url(/assets/contact_button.svg);
+}
+
+/* Changes background image on button to hovered version */
+#contact_button:hover, #contact_process_button:hover {
+	background-image: url(/assets/contact_button_hover.svg);
+}
+
+/* Call to action button styling on homepage */
+#services_button, #contact_button {
+	margin-top: 35px;
+	margin-bottom: 70px;
+	width: 101px;
+	height: 34px;
+	display: inline-block;
+	background-repeat: no-repeat;
+}
+
+/* Adds space between call to action buttons on homepage. */
+.divider_call {
+	width: 10px;
+	height: auto;
+	display: inline-block;
+}
+
+/* Styling for hero image on homepage. */
+.hero {
+	width: 100%;
+	height: auto;
+	background-size: cover;
+	margin-bottom: 40px !important;
+}
+
+/* Centers h1 and p content. */
+.center_text {
+	text-align: center;
+}
+
+/* Left aligns h1 and p content. */
+.left_text {
+	display: inline-block;
+	text-align: left;
+}
+
+/*=== TEAM SECTION ===*/
+
+/* Styling for Tracys professional bio photo */
+.tracy_bio {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 50px 50px 40px 50px;
+}
+
+/* Positions the team paragraph and header on the right side of the column */
+.team_pos {
+	float:right;
+	position: relative;
+	top: -25px;
+	left: 2px;
+	margin-bottom: 70px;
+}
+
+/* Adds padding to the right side of akims photo on the Team page */
+.akim {
+	position: relative;
+	top: 4px;
+	padding-right: 15px;
+	float: left;
+}
+
+/* Positions the content of the akim photo and team paragraph cont. */
+.akim_pos {
+	position: relative;
+	top: 13px;
+	left: 8px;
+	margin-bottom: 70px;
+}
+
+/*=== SERVICES SECTION ===*/
+
+/* Styling for book appointment button */
+#book_appt_button {
+	background-image: url(/assets/book_appt_button.svg);
+	width: 171px;
+	height: 34px;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 70px;
+	background-repeat: no-repeat;
+}
+
+/* Changes background image on button to hovered version */
+#book_appt_button:hover {
+	background-image: url(/assets/book_appt_hover.svg);
+}
+
+/* Positions the services graphic on the center of the page. */ 
+.services {
+	width: 518px;
+	height: 851px;
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+	margin-top: 50px !important;
+	margin-bottom: 40px;
+}
+
+/*=== RESOURCES SECTION ===*/
+
+/* Positioning for Resources header */
+.resources_header {
+	text-align: center;
+	padding: 50px;
+}
+
+/* Love button svg file with dimensions 178px by 111px */
+#love_button {
+	background-image: url(/assets/loveplants.svg);
+}
+
+#love_button:hover{
+	background-image:  url(/assets/loveplants_hover.svg);
+} 
+
+/* Additude button svg file with dimensions 178px by 111px */
+#additude_button {
+	background-image: url(/assets/additude.svg);
+}
+
+#additude_button:hover {
+	background-image: url(/assets/additude_hover.svg);
+}
+
+/* ISPNR button svg file with dimensions 178px by 111px */
+#isnpr_button {
+	background-image: url(/assets/isnpr.svg);
+}
+
+#isnpr_button:hover {
+	background-image: url(/assets/isnpr_hover.svg);
+}
+
+/* Functional Medicine button svg file with dimensions 178px by 111px */
+#functional_medicine_button {
+	background-image: url(/assets/ifm.svg);
+}
+
+#functional_medicine_button:hover {
+	background-image: url(/assets/ifm_hover.svg);
+}
+
+/* IMMH button svg file with dimensions 178px by 111px */
+#immh_button {
+	background-image: url(/assets/immh.svg);
+}
+
+#immh_button:hover {
+	background-image: url(/assets/immh_hover.svg);
+}
+
+/* Resources button styling and display */
+#love_button, #additude_button, #isnpr_button,
+#functional_medicine_button, #immh_button {
+	width: 178px;
+	height: 111px;
+	display: block;
+	background-repeat: no-repeat;
+	margin-bottom: 65px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+/* Floats ispnr button left to shorten the gap between the buttons */
+.left {
+	float: left;
+}
+
+/* Floats Love and functional medicine buttons right to shorten the gap between the buttons */
+.right {
+	float: right;
+}
+
+/* Gets rid of padding on the right and left sides of the columns to bring content closer together */
+.padding-0{
+    padding-right:0;
+    padding-left:0;
+}
+
+/* Pushes down footer on Resources page to make the page full */
+.push {
+	margin-bottom: 406px;
+}
+
+/*=== CONTACT SECTION ===*/
+
+/* Styling for the Form labels. */
+label {
+	font-family: 'Montserrat', sans-serif; 
+	font-weight: 400;
+	font-size: 14px;
+	font-style: italic;
+	color: #007156;
+	padding-top: 16px;
+	margin-bottom: 4px;
+}
+
+/* Styling for the name, email, and date of birth form fields. */
+#name, #email {
+	background-color: #f7f5ef;
+	color: #3f2500;
+	border: 0;
+	width: 275px;
+	height: 25px;
+	font-family: 'Montserrat', sans-serif; 
+	font-weight: 400;
+	font-size: 12px;
+	letter-spacing: .85px;
+}
+
+#date {
+	background-color: #f7f5ef;
+	color: #3f2500;
+	border: 0;
+	width: 275px;
+	height: 25px;
+	font-family: 'Montserrat', sans-serif; 
+	font-weight: 400;
+	font-size: 12px;
+	letter-spacing: 1.2px;
+}
+
+/* Styling for the message box. */
+#message {
+	width: 275px;
+	height: 155px;
+	font-family: 'Montserrat', sans-serif; 
+	font-size: 12px;
+	font-weight: 400;
+	color: #3f2500;
+	background-color: #f7f5ef;
+	border: none;
+	margin-bottom: 17px;
+	letter-spacing: .85px;
+}
+
+/* Styling for contact form input font */
+input[type=date]:invalid::-webkit-datetime-edit {
+	color: #3f2500;
+}
+
+/* Changes color of placeholder text on contact form for cross browser capabilities. Chrome, Opera */
+::placeholder { 
+	color: #3f2500;
+	opacity: 1;
+	letter-spacing: 1.2px;
+}
+
+/* Changes color of placeholder text on contact form for cross browser capabilities. Safari 10.1+ */
+::-webkit-input-placeholder { 
+	color: #3f2500;
+	letter-spacing: 1.5px;
+}
+
+/* Changes color of placeholder text on contact form for cross browser capabilities. Firefox */
+::-moz-placeholder { 
+	color: #3f2500;
+	letter-spacing: 1.5px;
+}
+
+ /* Changes color of placeholder text on contact form for cross browser capabilities. Internet Explorer 10-11 */
+:-ms-input-placeholder {
+	color: #3f2500;
+	letter-spacing: 1.2px;
+}
+
+/* Changes color of placeholder text on contact form for cross browser capabilities. Microsoft Edge */
+::-ms-input-placeholder { 
+	color: #3f2500;
+	letter-spacing: 1.2px;
+}
+
+/* Position and styling for the send button. */
+#submit {
+	background-image: url(/assets/send_button.svg);
+	width: 101px;
+	height: 34px;
+	border: none;
+	background-repeat: no-repeat;
+	background-color: #fff;
+}
+
+/* Changes background image on button to hovered version */
+#submit:hover {
+	background-image: url(/assets/send_button_hover.svg);
+	cursor: pointer;
+}
+
+#submit:focus {
+	border: none !important;
+	box-shadow: none !important;
+	-moz-box-shadow: none !important;
+	-webkit-box-shadow: none !important;
+}
+
+/* Centers left column content on contact page. */
+.contact {
+	margin-top: 50px;
+	text-align: left;
+	display: inline-block;
+}
+
+/* Positioning for flower photo in right column contact page. */
+.flowers {
+	margin-top: 50px;
+	margin-bottom: 100px;
+}
+
+/* Adds space between the contact paragraph and the form on the contact page. */
+.bottom_space {
+	padding-bottom: 32px;
+}
+
+/* Changes the form fields border color when selected. */
+input:focus, textarea:focus {
+border: 1px solid #007156 !important;
+-webkit-appearance: none;		
+box-shadow: 0 0 3px #007156 !important;
+-moz-box-shadow: 0 0 3px #007156 !important;
+-webkit-box-shadow: 0 0 3px #007156 !important;
+}
+
+/* Changes the form fields border color when selected. */
+input:focus, textarea:focus, select:focus {
+outline-offset: 0px !important;
+outline: none !important;
+}
+
+/*=== LOCATION SECTION ===*/
+
+/* Container for positioning Google Map */
+#contain {
+	height: 550px;
+	width: 550px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+/* Styling and positioning for small logo on bottom left column of map */
+#sm_logo {
+	width: 251px;
+	height: 50px;
+	display: block;
+	float: right;
+}
+
+/* Styling and positioning for Our Location header */
+.location_header {
+	margin-top: 50px;
+	text-align: center;
+	position: relative;
+	right: 175px;
+}
+
+/* Styling for thin type in contact info */
+.location_contact_reg {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 18px;
+	color: #003b41;
+	margin-top: 3px;
+}
+
+/* Styling for thick type in contact info */
+.location_contact_thick {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 18px;
+	color: #003b41;
+}
+
+/* Styling for thin type for phone number */
+#thin_phone {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 18px;
+	color: #003b41;
+}
+
+/* Styling for thin type for fax number */
+#thin_fax {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 18px;
+	color: #003b41;
+}
+
+/* Creates bottom gap between content and footer */
+.gap {
+	margin-top: 20px;
+	margin-bottom: 109px;
+	margin-left: -15px;
+}
+
+/*=== CONTACT PROCESS SECTION ===*/
+
+/* Positioning for Envelope Icon on contact_process.php */
+.contact_icon {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 70px;
+	margin-bottom: 16px;
+}
+
+/* Centers printed confirmation statement on Contact Process page. */
+.alert {
+	text-align: center;
+}
+
+/* Styling for success confirmation on Contact Process page. */
+.alert-success {
+	color: #007156;
+	background-color: #fff;
+	border-color: #fff;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	font-size: 17px;
+	line-height: 24px;
+}
+
+/* Styling for error confirmation on Contact Process page. */
+.alert-danger {
+	color: red;
+	background-color: #fff;
+	border-color: #fff;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	font-size: 17px;
+	line-height: 24px;
+}
+
+/* Container div for call to action buttons. */
+#container_process {
+	text-align: center;
+}
+
+/* Call to action button styling for Contact Process page. */
+#home_button, #contact_process_button {
+	margin-top: 20px;
+	margin-bottom: 410px;
+	width: 101px;
+	height: 34px;
+	display: inline-block;
+	background-repeat: no-repeat;
+}
+
+/* Home button png file with dimensions 103px by 34px */
+#home_button {
+	background-image: url(/assets/home_button.svg);
+}
+
+/* Changes background image on button to hovered version */
+#home_button:hover {
+	background-image: url(/assets/home_button_hover.svg);
+}
+
+/* Adds space between call to action buttons on Contact Process landing page. */
+.divider_process {
+	width: 10px;
+	height: auto;
+	display: inline-block;
+}
+
+/*=== FOOTER SECTION ===*/
+
+/* Styling for footer section */
+footer {
+	height: 115px;
+	width: 100%;
+	background-color: #f7f5ef;
+}
+
+/* Styling for telephone/fax numbers in footer. */
+a[href^="tel"] {
+	color: inherit;
+	text-decoration: none;
+}
+
+/* Container div for messenging app buttons. */
+#container_foot {
+	text-align: center;
+}
+
+/* Spruce button PNG file with dimensions 84px by 38px */
+#spruce_button {
+	background-image: url(/assets/spruce_button.svg);
+}
+
+/* Changes background image of button to hovered version. */
+#spruce_button:hover {
+	background-image: url(/assets/spruce_button_hover.svg);
+}
+
+/* Schedule button PNG file with dimensions 106px by 21px */
+#valant_button {
+	background-image: url(/assets/valant_button.svg);
+}
+
+/* Changes background image of button to hovered version. */
+#valant_button:hover {
+	background-image: url(/assets/valant_button_hover.svg);
+}
+
+/* Pay button PNG file with dimensions 106px by 21px */
+#pay_button {
+	background-image: url(/assets/pay_button.svg);
+}
+
+/* Changes background image of button to hovered version. */
+#pay_button:hover {
+	background-image: url(/assets/pay_button_hover.svg);
+}
+
+/* Call to action button styling in the footer */
+#pay_button, #spruce_button, #valant_button {
+	margin-top: 35px;
+	width: 84px;
+	height: 38px;
+	display: inline-block;
+	background-repeat: no-repeat;
+}
+
+/* Clear it class for transitioning between 2 call to action buttons and the footer. */
+.clear {
+	clear: both;
+}
+
+/* Positioning and Styling for yelp favicon */
+.favicon {
+	width: 110px;
+	height: 42px;
+	display: block;
+	margin-top: 35px;
+	float: right;
+	vertical-align: middle;
+}
+
+/* Adds space between call to action buttons in the footer. */
+.divider_foot {
+	width: 7px;
+	height: auto;
+	display: inline-block;
+}
+
+/* Copyright info for Portland Integrative Psychiatry */
+.copyright {
+	margin-top: 16px;
+	color: #3f2500;
+	font-size: 8px;
+	text-align: center;
+}
+
+/* Hides copyright info for desktop in first column */
+.copyright_mobile {
+	display: none;
+}
+
+/* Styling for Tracys contact and professional licenses info */
+.footer_contact {
+	margin-top: 10px;
+	font-size: 10px;
+	line-height: 13px;
+}
+
+/*=== SMALLER MOBILE MEDIA QUERY ===*/
+
+@media only screen and (max-device-width : 320px) {
+	
+	/*=== TEAM SECTION ===*/
+	
+	.team_pos {
+		margin-right: -8px !important;
+		margin-left: -12px !important;
+	}
+	
+	.akim_pos {
+		margin-left: 15px !important;
+	}
+	
+	/*=== CONTACT SECTION ===*/
+	
+	/* Fixes contact form paragraph for mobile */
+	.small_phone_p {
+		margin-right: 7px;
+		margin-left: 7px;
+	}
+	
+	/* Fixes contact form header for mobile */
+	.small_phone_header {
+		margin-left: 5px;
+	}
+	
+	/* Fixes contact form alignment for mobile */
+	form {
+		margin-left: 6px !important;
+	}
+	
+	/*=== LOCATION SECTION ===*/
+	
+	/* Fixes contact info for small mobile */
+	.location_contact_thick {
+		margin-right: 0 !important;
+		margin-left: 0 !important;
+	}
+	
+	/* Fixes contact info for small mobile */
+	.location_contact_reg {
+		margin-right: 0 !important;
+		margin-left: 0 !important;
+	}
+	
+	/*=== FOOTER SECTION ===*/
+	
+	/* Expands footer height for small mobile */
+	footer {
+		height: 152px !important;
+	}
+	
+	.footer_contact {
+		font-size: 8px !important;
+	}
+}
+
+/*=== LARGER MOBILE MEDIA QUERY ===*/
+
+@media only screen and (max-device-width : 640px) {
+
+	/*=== GLOBAL STYLE SECTION ===*/
+
+	/* Styling for mobile headers */
+	h1 {
+		margin-left: 24px;
+	}
+
+	/* Paragraph styling for mobile */
+	p {
+		margin-right: 20px;
+		margin-left: 25px;
+		font-size: 13px;
+		line-height: 18.5px;
+	}
+
+	/* Pushes down main section to line up with top header and navigation */
+	main {
+		padding-top: 48px;
+	}
+
+	/* Takes out line breaks for mobile */
+	.breaks {
+		display: none;
+	}
+
+	/*=== HEADER SECTION ===*/
+
+	/* Stlying for mobile navigation bar */
+	header {
+		width: 100%;
+		height: 48px;
+	}
+
+	/* Positioning for logo in mobile header */
+	#logo {
+		margin: 4px;
+	}
+	
+	/* Helps center hamburger menu and cross in mobile nav */
+	.bttn {
+		display: flex;
+		display: -o-flex;
+		display: -ms-flex;
+		display: -moz-flex;
+		display: -webkit-flex;
+		position: relative;
+		justify-content: center;
+		align-items: center;
+		vertical-align: middle;
+		display: -webkit-inline-box;
+		-webkit-box-pack: center;
+		-webkit-box-align: center;
+	}
+
+	/* Styling for mobile hamburger icon */
+	.hamburger {
+		font-family: Arial, Helvetica, sans-serif;
+		background: none;
+		position: fixed;
+		color: #003b41;
+		top: 0;
+		right: 0;
+		border: 0;
+		font-size: 32px;
+		font-weight: 600;
+		cursor: pointer;
+		outline: none;
+		z-index: 10;
+		padding: 15px 15px 15px 0 !important;
+		text-rendering: optimizeLegibility;
+	}
+
+	/* Styling for cross icon that closes mobile dropdown navigation */
+	.cross {
+		font-family: Arial, Helvetica, sans-serif;
+		background: none;
+		position: fixed;
+		color: #003b41;
+		top: 0;
+		right: 0;
+		border: 0;
+		font-size: 66px;
+		font-weight: 500;
+		cursor: pointer;
+		outline: none;
+		z-index: 10;
+		padding: 28px 19px 15px 0 !important;
+	}
+
+	/* Styling for mobile navigation menu */
+	.menu {
+		position: fixed;
+		z-index: 10;
+		font-weight: 600;
+		width: 100%;
+		height: 100%;
+		background: #003b41; 
+		top: 48px;
+		right: 0;
+		text-align: center;
+		display: inline-block;
+	}
+
+	/* Styling for list type on menu */
+	.menu ul {
+		list-style-type: none;
+		list-style-image: none;
+		margin: 0;
+		padding: 0;
+	}
+
+	/* Styling and positioning for links on mobile menu */
+	.menu li {
+		padding: 15px 0;
+		float: none;
+	}
+
+	/* Styling for list type and links on menu */
+	.menu ul li a {
+		text-decoration: none;
+		color: #f7f5ef;
+		font-size: 16px;
+		margin: 0;
+		border-bottom: 1px solid;
+		border-bottom-color: #f7f5ef;
+		padding-bottom: 5px;
+	}
+
+	/* Styling for beige lower mobile menu navigation */
+	.nav_apps {
+		display: block;
+		background-color: #f7f5ef;
+		border: 1px solid #f7f5ef;
+	}
+	
+	/* Puts bottom padding on beige section of mobile nav menu */
+	.bot_space_beige {
+		padding: 5px;
+		width: 100%;
+		background-color: #f7f5ef;
+	}
+	
+	/* Puts bottom padding on green section of mobile nav menu */
+	#bot_space_green {
+		padding-bottom: 27px;
+	}
+	
+	/* Green type styling for lower messaging apps */
+	#green_type_spruce {
+		color: #003b41;
+		font-family: 'Barlow', sans-serif;
+		font-weight: 700;
+		font-size: 16px;
+		line-height: 14px;
+		border-bottom: none;
+		border-bottom-style: none;
+	}
+	
+	/* Green type styling for lower messaging apps */
+	#green_type_valant {
+		color: #003b41;
+		font-family: 'Barlow', sans-serif;
+		font-weight: 700;
+		font-size: 16px;
+		line-height: 14px;
+		border-bottom: none;
+		border-bottom-style: none;
+	}
+	
+	/* Green type styling for lower messaging apps */
+	#green_type_payments {
+		color: #003b41;
+		font-family: 'Barlow', sans-serif;
+		font-weight: 700;
+		font-size: 16px;
+		line-height: 14px;
+		border-bottom: none;
+		border-bottom-style: none;
+	}
+
+	/* Thin type styling for upper half of messaging apps title */
+	#thin_mobile_spruce {
+		font-family: 'Barlow', sans-serif;
+		font-weight: 300;
+		font-size: 18px;
+		padding-left: 0;
+		padding-bottom: 0;
+	}
+	
+	/* Thin type styling for upper half of messaging apps title */
+	#thin_mobile_valant {
+		font-family: 'Barlow', sans-serif;
+		font-weight: 300;
+		font-size: 18px;
+		padding-left: 0;
+		padding-bottom: 0;
+	}
+
+	/* Adds a border bottom to the beige links at bottom of mobile navigation menu */
+	.bottom_line {
+		padding-left: 0;
+		border-bottom: 1px solid;
+		border-bottom-color: #003b41;
+		padding-bottom: 5px;
+	}
+	
+	/*=== INTRO SECTION ===*/
+
+	/* Styling for mobile hero photo on homepage */
+	.hero {
+		margin-bottom: 20px !important;
+	}
+
+	/* Left aligns intro header for mobile */
+	.center_text {
+		text-align: left;
+	}
+
+	/* Positions intro header for mobile */
+	.header_mobile {
+		margin-left: 9.2%;
+	}
+
+	/* Positions intro text for mobile */
+	.intro_mobile {
+		margin-left: 9.5%;
+		margin-right: 9.5%;
+	}
+
+	/* Call to action button styling */
+	#services_button, #contact_button {
+		margin-bottom: 50px !important;
+	}
+	
+	/* To turn off the hover effect for mobile and prevent it from disappearing when clicked in Safari. */
+	#services_button:link {
+		background-image: url(/assets/services_button.svg);
+	}
+	
+	#services_button:active {
+		background-image: url(/assets/services_button.svg);
+	}
+	
+	#contact_button:link, #contact_process_button:link {
+		background-image: url(/assets/contact_button.svg);
+	}
+
+	#contact_button:active, #contact_process_button:active {
+		background-image: url(/assets/contact_button.svg);
+	}
+	
+	/*=== TEAM SECTION ===*/
+
+	/* Mobile styling for Tracys Bio photo */
+	.tracy_bio {
+		padding: 0;
+	}
+
+	/* Mobile styling for first paragraph on team page */
+	.team_pos {
+		margin-top: 20px;
+		margin-bottom: 0;
+		float: none;
+		top: 0;
+		right: 0;
+		margin-right: -6px;
+        left: 0;
+	}
+
+	/* Mobile styling for akim paragraph on team page */
+	.akim_pos {
+		margin-top: 10px;
+		margin-left: 24px;
+		margin-right: 12px;
+		margin-bottom: 50px !important;
+		top: 0;
+		left: 0;
+	}
+
+	/* Hides Akim photo on Team page for mobile */
+	.akim {
+		display: none;
+	}
+
+	/*=== SERVICES SECTION ===*/
+
+	/* Creates gap between button and footer */
+	#book_appt_button {
+		margin-bottom: 50px !important;
+	}
+	
+	#book_appt_button:link {
+		background-image: url(/assets/book_appt_button.svg);
+	}
+	
+	#book_appt_button:active {
+		background-image: url(/assets/book_appt_button.svg);
+	}
+	
+	/* Creates space on top between services graphic and header */
+	.services {
+		width: 100%;
+		height: 100%;
+		margin-top: 20px !important;
+	}
+
+	/*=== RESOURCES SECTION ===*/
+	
+	/* Love button svg file with dimensions 178px by 111px */
+	#love_button:link {
+		background-image: url(/assets/loveplants.svg);
+	}
+
+	#love_button:active{
+		background-image:  url(/assets/loveplants.svg);
+	} 
+
+	/* Additude button svg file with dimensions 178px by 111px */
+	#additude_button:link {
+		background-image: url(/assets/additude.svg);
+	}
+
+	#additude_button:active {
+		background-image: url(/assets/additude.svg);
+	}
+
+	/* ISPNR button svg file with dimensions 178px by 111px */
+	#isnpr_button:link {
+		background-image: url(/assets/isnpr.svg);
+	}
+
+	#isnpr_button:active {
+		background-image: url(/assets/isnpr.svg);
+	}
+
+	/* Functional Medicine button svg file with dimensions 178px by 111px */
+	#functional_medicine_button:link {
+		background-image: url(/assets/ifm.svg);
+	}
+
+	#functional_medicine_button:active {
+		background-image: url(/assets/ifm.svg);
+	}
+
+	/* IMMH button svg file with dimensions 178px by 111px */
+	#immh_button:link {
+		background-image: url(/assets/immh.svg);
+	}
+
+	#immh_button:active {
+		background-image: url(/assets/immh.svg);
+	}
+
+	/* Centers resources header and reduces padding for mobile version */
+	.resources_header {
+		margin-left: 0;
+		padding: 20px;
+	}
+
+	/* Fixes bottom gap between resource link and footer mobile */
+	.push {
+		margin-bottom: 0;
+	}
+	
+	/* Gets rid of float left on functional medicine button */
+	.left {
+		float: none;
+	}
+	
+	/* Gets rid of float right on isnpr button */
+	.right {
+		float: none;
+	}
+
+	/*=== CONTACT SECTION ===*/
+
+	/* Pushes the contact form right to give it space on the left side */
+	form {
+		margin-left: 25px;
+	}
+
+	/* bottom space for send button */
+	#submit {
+		margin-bottom: 50px !important;
+	}
+	
+	/* Positioning for Contact header */
+	.contact {
+		margin-top: 20px !important;
+	}
+
+	/* Space between header and paragraph Contact section */
+	.bottom_space {
+		padding-bottom: 8px !important;
+	}
+
+	/* Hides the flower photo for mobile */
+	.flowers {
+		display: none;
+	}
+	
+	/*=== LOCATION SECTION ===*/
+
+	/* Positioning for Location header for mobile */
+	.location_header {
+		margin-top: 20px;
+		margin-left: 0;
+		margin-bottom: 10px;
+		text-align: center;
+		right: 0;	
+	}
+
+	/* Google map styling */
+	#contain {
+		width: 100%;
+		height: 325px;
+	}
+	
+	iframe {
+		height: 325px;
+	}
+
+	/* Positioning for small logo underneath google map */
+	#sm_logo {
+		float: none;
+		margin-left: 10%;
+	}
+
+	/* Contact-Location paragraph styling for top half */
+	.location_contact_reg {
+		margin-top: 11px;
+		margin-right: 10px;
+		margin-left: 10px;
+		font-size: 9px;
+		line-height: 11px;
+	}
+
+	/* Contact-Location paragraph styling for bottom half */
+	.location_contact_thick {
+		margin-right: 10px;
+		margin-left: 10px;
+		font-size: 9px;
+		line-height: 11px;
+	}
+
+	/* Thins out type for Phone number */
+	#thin_phone {
+		font-size: 9px;
+		padding-left: 0;
+		line-height: 11px;
+	}
+	
+	/* Thins out type for Fax number */
+	#thin_fax {
+		font-size: 9px;
+		padding-left: 0;
+		line-height: 11px;
+	}
+
+	/* Puts bottom gap on the bottom of Location page */
+	.gap {
+		margin-top: 0;
+		margin-bottom: 153px;
+	}
+
+	span {
+		padding-left: 20px;
+	}
+
+	/*=== CONTACT PROCESS SECTION ===*/
+
+	/* Call to action button styling for Contact Process page. */
+	#home_button, #contact_process_button {
+		margin-bottom: 50px; 
+	}
+	
+	/* Gets rid of hover effect for mobile when button is clicked */
+	#home_button:link {
+		background-image: url(/assets/home_button.svg);
+	}
+
+	#home_button:active {
+		background-image: url(/assets/home_button.svg);
+	}
+
+	/* Positioning for Envelope Icon on contact_process.php */
+	.contact_icon {
+		margin-top: 20px;
+	}
+	
+	/* Font size for alert success message */
+	.alert-success {
+		font-size: 15px;
+	}
+	
+	/* Font size for alert danger message */
+	.alert-danger {
+		font-size: 15px;
+	}
+	
+	/*=== FOOTER SECTION ===*/
+
+	/* Styling and sizing for footer background */
+	footer {
+		width: 100%;
+		height: 155px;
+	}
+
+	/* Hides the medical messaging app buttons for mobile */
+	#pay_button, #spruce_button, #valant_button {
+		display: none;
+	}
+
+	/* Positions yelp logo in footer */
+	.favicon {
+		margin-top: 40px;
+	}
+
+	/* Hides copyright information in middle column for mobile footer */
+	.copyright {
+		display: none;
+	}
+
+	/* Positions copyright for new two-column mobile footer */
+	.copyright_mobile {
+		clear: both;
+		display: block;
+		float: right;
+		font-size: 4.5px;
+		margin-top: 2px; 
+		margin-right: 0;
+		margin-left: 0;
+		font-size: 6px;
+	}
+
+	/* Styling and Positioning for contact information in mobile footer */
+	.footer_contact {
+		display: block;
+		margin-top: 20px;
+		line-height: 15px;
+		vertical-align: middle;
+		font-size: 10px;
+		margin-right: 0;
+		margin-left: 0;
+	}
+
+	/* Creates two-column for footer */
+	.col-xs-6 {
+		width: 50%;
+	}
+
+	/* Hides middle column for new two-column footer */
+	.col-xs-0 {
+		display: none;
+	}
+
+	/* Restores original left margin for footer to fit */
+	.left_room {
+		margin-left: -15px;
+		margin-right: -15px;
+	}	
+}
+
+/*=== SMALL DESKTOP MEDIA QUERY ===*/
+
+@media only screen and (min-device-width: 871px) and (max-device-width: 940px) {
+
+	/*=== TEAM SECTION ===*/
+	 
+	.team_pos {
+		left: 10px;
+	}
+	
+	.akim_pos {
+		left: -1px;
+	}
+		
+}
+
+/*=== LARGER TABLET MEDIA QUERY ===*/
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 870px) {
+	
+	/*=== GLOBAL STYLE SECTION ===*/
+
+	/* h1 styling for tablet version */
+	h1 {
+		font-size: 26px;
+	}	
+
+	/* p styling for tablet version */
+	p {
+		font-size: 11.2px;
+		line-height: 17.9px;
+	}
+
+	/*=== NAVBAR SECTION ===*/
+
+	/* Styling for primary navigation links. */
+	li {
+		font-size: 12.5px;	
+	}
+
+	/* Hides hamburger menu and cross buttons for Tablet screen size */
+	button {
+		display: none;
+	}
+
+	/*=== INTRO SECTION ===*/
+
+	#services_button {
+		margin-bottom: 97px;
+	}
+
+	#contact_button {
+		margin-bottom: 97px;
+	}
+
+	/* Gets rid of hover effect for tablet when button is clicked */
+	#services_button:link {
+		background-image: url(/assets/services_button.svg);
+	}
+	
+	#services_button:active {
+		background-image: url(/assets/services_button.svg);
+	}
+	
+	#contact_button:link, #contact_process_button:link {
+		background-image: url(/assets/contact_button.svg);
+	}
+
+	#contact_button:active, #contact_process_button:active {
+		background-image: url(/assets/contact_button.svg);
+	}
+	
+	/*=== TEAM SECTION ===*/
+
+	/* Decreases spacing around Tracys bio photo on Team page. */
+	.tracy_bio {
+		padding: 30px 30px 15px 30px;
+	}
+
+	/* Positioning for left column paragraph on Team page */
+	.team_pos {
+		float: none;
+		left: 0;
+		top: 0;
+		margin-bottom: 97px;
+	}
+
+	/* Positioning for right coloumn paragraph on Team page */
+	.akim_pos {
+		top: 32px;
+		left: -8px;
+		margin-bottom: 97px;
+	}
+
+	/* Narrows the spacing between the akim photo and p for Tablet. */
+	.akim {
+		top: 5px;
+		padding-right: 13px;
+	}
+
+	/* Gets rid of line breaks for Akim paragraph tablet version */
+	.dog {
+		display: none;
+	}
+
+	/*=== SERVICES SECTION ===*/
+
+	/* Gets rid of hover effect for smaller tablet when button is clicked */
+	#book_appt_button:link {
+		background-image: url(/assets/book_appt_button.svg);
+	}
+	
+	#book_appt_button:active {
+		background-image: url(/assets/book_appt_button.svg);
+	}
+
+	/*=== RESOURCES SECTION ===*/
+
+	/* Love button svg file with dimensions 178px by 111px */
+	#love_button:link {
+		background-image: url(/assets/loveplants.svg);
+	}
+
+	#love_button:active{
+		background-image:  url(/assets/loveplants.svg);
+	} 
+
+	/* Additude button svg file with dimensions 178px by 111px */
+	#additude_button:link {
+		background-image: url(/assets/additude.svg);
+	}
+
+	#additude_button:active {
+		background-image: url(/assets/additude.svg);
+	}
+
+	/* ISPNR button svg file with dimensions 178px by 111px */
+	#isnpr_button:link {
+		background-image: url(/assets/isnpr.svg);
+	}
+
+	#isnpr_button:active {
+		background-image: url(/assets/isnpr.svg);
+	}
+
+	/* Functional Medicine button svg file with dimensions 178px by 111px */
+	#functional_medicine_button:link {
+		background-image: url(/assets/ifm.svg);
+	}
+
+	#functional_medicine_button:active {
+		background-image: url(/assets/ifm.svg);
+	}
+
+	/* IMMH button svg file with dimensions 178px by 111px */
+	#immh_button:link {
+		background-image: url(/assets/immh.svg);
+	}
+
+	#immh_button:active {
+		background-image: url(/assets/immh.svg);
+	}
+
+	/* Pushes down content for Resources page */
+	.push {
+		margin-bottom: 355px;
+	}
+	
+	/* Gets rid of float left on functional medicine button */
+	.left {
+		float: none;
+	}
+	
+	/* Gets rid of float right on ispnr button */
+	.right {
+		float: none;
+	}
+
+	/*=== CONTACT SECTION ===*/
+	
+	/* Styling for flower photo on contact page tablet version */
+	.flowers {
+		width: 88%;
+		margin-bottom: 156px;
+	}
+
+	.span_6_of_12 {
+		width: 50%;
+	}
+
+	/*=== LOCATION SECTION ===*/
+
+	/* Aligns the header for the location page tablet version */
+	.location_header {
+		right: 190px;
+	}
+	
+	/* Pushes Tracys contact info to the left on location page */
+	.location_contact_reg {
+		margin-left: -5px;
+	}
+	
+	/* Pushes Tracys contact info to the left on location page */
+	.location_contact_thick {
+		margin-left: -5px;
+	}
+
+	/*=== CONTACT PROCESS SECTION ===*/
+
+	/* Gets rid of hover effect for tablet when button is clicked */
+	#home_button:link {
+		background-image: url(/assets/home_button.svg);
+	}
+
+	#home_button:active {
+		background-image: url(/assets/home_button.svg);
+	}
+	
+	/*=== FOOTER SECTION ===*/
+
+	/* Footer styling for tablet. */
+	footer {
+		width: 100%;
+		height: 115px;
+	}
+
+	/* Positioning for payment button in footer. */
+	#pay_button, #valant_button, #spruce_button {
+		margin-top: 10px;	
+	}
+
+	/* Stacks payment and scheduling button for the tablet version */
+	#pay_button, #valant_button, #spruce_button {
+		display: inline-block;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 35px;	
+	}
+
+	/* Gets rid of hover effect for tablet when button is clicked */
+	#pay_button:link {
+		background-image: url(/assets/pay_button.svg);
+	}
+
+	/* Gets rid of hover effect for tablet when button is clicked */
+	#pay_button:active {
+		background-image: url(/assets/pay_button.svg);
+	}
+
+	/* Gets rid of hover effect for tablet when button is clicked */
+	#valant_button:link {
+		background-image: url(/assets/valant_button.svg);
+	}
+
+	/* Gets rid of hover effect for tablet when button is clicked */
+	#valant_button:active {
+		background-image: url(/assets/valant_button.svg);
+	}
+
+	/* Gets rid of hover effect for tablet when button is clicked */
+	#spruce_button:link {
+		background-image: url(/assets/spruce_button.svg);
+	}
+
+	/* Gets rid of hover effect for tablet when button is clicked */
+	#spruce_button:active {
+		background-image: url(/assets/spruce_button.svg);
+	}
+
+	/* Gets rid of footergap between call to action buttons in footer. */
+	.divider_foot {
+		width: 0;
+		display: inline-block;
+	}
+
+	/* Styling for copyright information. */
+	.copyright {
+		margin-top: 12px;
+		font-size: 7px;
+	}
+
+	/* Styling for footer contact information. */
+	.footer_contact {
+		font-size: 9px;
+	}
+}
+
+/*=== SMALLER TABLET MEDIA QUERY ===*/
+
+@media only screen and (min-device-width: 641px) and (max-device-width: 767px) {
+
+	/*=== NAVBAR SECTION ===*/
+
+	/* Hides hamburger menu and cross buttons for Desktop screen size */
+	button {
+		display: none;
+	}
+	
+	/*=== INTRO SECTION ===*/
+	
+	/* To turn off the hover effect for mobile and prevent it from disappearing when clicked in Safari. */
+	#services_button:link {
+		background-image: url(/assets/services_button.svg);
+	}
+	
+	#services_button:active {
+		background-image: url(/assets/services_button.svg);
+	}
+	
+	#contact_button:link, #contact_process_button:link {
+		background-image: url(/assets/contact_button.svg);
+	}
+
+	#contact_button:active, #contact_process_button:active {
+		background-image: url(/assets/contact_button.svg);
+	}
+
+	/*=== TEAM SECTION ===*/	
+
+	/* Positioning for left column paragraph on Team page */
+	.team_pos {
+		float: none;
+		position: relative;
+		top: -25px;
+		left: 20px;
+		margin-bottom: 0;
+	}
+
+	/* Positioning for right coloumn paragraph on Team page */
+	.akim_pos {
+		position: relative;
+		top: -10px;
+		left: 20px;
+		margin-bottom: 35px;
+	}
+	
+	/*=== SERVICES SECTION ===*/
+
+	/* Gets rid of hover effect for smaller tablet when button is clicked */
+	#book_appt_button:link {
+		background-image: url(/assets/book_appt_button.svg);
+	}
+	
+	#book_appt_button:active {
+		background-image: url(/assets/book_appt_button.svg);
+	}
+
+	/*=== RESOURCES SECTION ===*/
+	
+	/* Love button svg file with dimensions 178px by 111px. Turns off hover capabilities for 
+	touch screen and prevents the button from disappearing in safari when clicked*/
+	#love_button:link {
+		background-image: url(/assets/loveplants.svg);
+	}
+
+	#love_button:active{
+		background-image:  url(/assets/loveplants.svg);
+	} 
+
+	/* Additude button svg file with dimensions 178px by 111px */
+	#additude_button:link {
+		background-image: url(/assets/additude.svg);
+	}
+
+	#additude_button:active {
+		background-image: url(/assets/additude.svg);
+	}
+
+	/* ISPNR button svg file with dimensions 178px by 111px */
+	#isnpr_button:link {
+		background-image: url(/assets/isnpr.svg);
+	}
+
+	#isnpr_button:active {
+		background-image: url(/assets/isnpr.svg);
+	}
+
+	/* Functional Medicine button svg file with dimensions 178px by 111px */
+	#functional_medicine_button:link {
+		background-image: url(/assets/ifm.svg);
+	}
+
+	#functional_medicine_button:active {
+		background-image: url(/assets/ifm.svg);
+	}
+
+	/* IMMH button svg file with dimensions 178px by 111px */
+	#immh_button:link {
+		background-image: url(/assets/immh.svg);
+	}
+
+	#immh_button:active {
+		background-image: url(/assets/immh.svg);
+	}
+	
+	/* Pushes down content for Resources page */
+	.push {
+		margin-bottom: 35px;
+	}
+	
+	/* Gets rid of float left on functional medicine button */
+	.left {
+		float: none;
+	}
+	
+	/* Gets rid of float right on ispnr button */
+	.right {
+		float: none;
+	}
+
+	/*=== CONTACT SECTION ===*/
+
+	.contact {
+		float: left;
+		margin-left: 50px;
+		margin-bottom: 35px;
+	}	
+
+	/* Styling for flower photo on contact page tablet version */
+	.flowers {
+		display: none;
+	}
+	
+	/*=== CONTACT PROCESS SECTION ===*/
+
+	/* Gets rid of hover effect for tablet when button is clicked */
+	#home_button:link {
+		background-image: url(/assets/home_button.svg);
+	}
+
+	#home_button:active {
+		background-image: url(/assets/home_button.svg);
+	}
+
+	/*=== LOCATION SECTION ===*/
+
+	.gap {
+		margin-bottom: 50px;
+	}
+
+	/*=== FOOTER SECTION ===*/
+
+	/* Footer styling for smaller tablet. */
+	footer {
+		width: 100%;
+		height: 130px;
+	}
+
+	/* Hides Yelp icon in footer */
+	.favicon {
+		display: none;
+	}
+
+	/* Hides Tracys professional info */ 
+	.footer_contact {
+		display: none;
+	}
+	
+		/* Gets rid of hover effect for tablet when button is clicked */
+	#pay_button:link {
+		background-image: url(/assets/pay_button.svg);
+	}
+
+	/* Gets rid of hover effect for tablet when button is clicked */
+	#pay_button:active {
+		background-image: url(/assets/pay_button.svg);
+	}
+
+	/* Gets rid of hover effect for tablet when button is clicked */
+	#valant_button:link {
+		background-image: url(/assets/valant_button.svg);
+	}
+
+	/* Gets rid of hover effect for tablet when button is clicked */
+	#valant_button:active {
+		background-image: url(/assets/valant_button.svg);
+	}
+
+	/* Gets rid of hover effect for tablet when button is clicked */
+	#spruce_button:link {
+		background-image: url(/assets/spruce_button.svg);
+	}
+
+	/* Gets rid of hover effect for tablet when button is clicked */
+	#spruce_button:active {
+		background-image: url(/assets/spruce_button.svg);
+	}
+}	
