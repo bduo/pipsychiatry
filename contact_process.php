@@ -48,11 +48,11 @@ if (isset($_POST['submit'])) {
 		<?php echo $result; ?>
 	
 		<div id="container_process">
-			<!-- Contact button PNG file with dimensions 101px by 34px -->
+			<!-- Contact button SVG file with dimensions 101px by 34px -->
 			<a href="https://www.pipsychiatry.com/contact.php" id="contact_process_button"></a>
 			<!-- Puts space between call to action buttons -->
 			<div class="divider_process"></div>
-			<!-- Home button PNG file with dimensions 101px by 34px -->
+			<!-- Home button SVG file with dimensions 101px by 34px -->
 			<a href="https://www.pipsychiatry.com" id="home_button"></a>
 		</div>
 	</section>	
