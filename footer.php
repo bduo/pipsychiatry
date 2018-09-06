@@ -13,7 +13,7 @@ Programmer: Brandon El Haj
 	<div class="container-fluid">
 		<div class="row left_room">
 			<div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
-			<!-- Yelp favicon. PNG file with dimensions 82px by 42px. -->
+			<!-- Youtube favicon. PNG file with dimensions 110px by 42px. -->
 			<a href="https://www.youtube.com/"><img src="/assets/youtube_fav.svg" alt="Tracys Youtube Channel favicon" class="favicon"></a>	
 			<!-- Copyright info for desktop -->
 			<p class="copyright_mobile">
