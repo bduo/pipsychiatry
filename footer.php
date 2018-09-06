@@ -13,7 +13,7 @@ Programmer: Brandon El Haj
 	<div class="container-fluid">
 		<div class="row left_room">
 			<div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
-			<!-- Youtube favicon. PNG file with dimensions 110px by 42px. -->
+			<!-- Youtube favicon. SVG file with dimensions 110px by 42px. -->
 			<a href="https://www.youtube.com/"><img src="/assets/youtube_fav.svg" alt="Tracys Youtube Channel favicon" class="favicon"></a>	
 			<!-- Copyright info for desktop -->
 			<p class="copyright_mobile">
@@ -23,15 +23,15 @@ Programmer: Brandon El Haj
 			<!-- Second column contains messenger apps and copyright info -->
 			<div class="col-xs-0 col-sm-0 col-md-6 col-lg-6">
 				<div id="container_foot">
-					<!-- Spruce Messenger button. PNG file with dimensions 84px by 38px --> 
+					<!-- Spruce Messenger button. SVG file with dimensions 84px by 38px --> 
 					<a href="https://app.sprucehealth.com/login" id="spruce_button"></a>
 					<!-- Puts a gap between footer buttons. -->
 					<div class="divider_foot"></div>
-					<!-- Valent Patient Portal button. PNG file with dimensions 84px by 38px -->
+					<!-- Valent Patient Portal button. SVG file with dimensions 84px by 38px -->
 					<a href="https://www.valantmed.com/Portal/PortlandIntegrativePsychiatry" id="valant_button"></a>
 					<!-- Puts a gap between footer buttons. -->
 					<div class="divider_foot"></div>
-					<!-- Payments Portal button. PNG file with dimensions 84px by 38px -->
+					<!-- Payments Portal button. SVG file with dimensions 84px by 38px -->
 					<a href="https://www.navicurepayments.com/pip/pay#!/" id="pay_button"></a>
 				</div>
 				<!-- Copyright info for desktop -->
