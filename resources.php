@@ -20,29 +20,30 @@ Programmer: Brandon El Haj
 			<div class="row">
 				<!-- Love and Plants button -->
 				<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 padding-0">
-					<a href="https://loveandplants.com/" id="love_button" class="right"></a>
+					<a href="https://loveandplants.com/" id="love_button" class="right" target="_blank"></a>
 				</div>
 				<!-- Additude Magazine button -->
 				<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 padding-0">
-					<a href="https://www.additudemag.com/" id="additude_button"></a>
+					<a href="https://www.additudemag.com/" id="additude_button" target="_blank"></a>
 				</div>
 				<!-- ISPNR button -->
 				<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 padding-0">
-					<a href="http://www.isnpr.org/publications/" id="isnpr_button" class="left"></a>
+					<a href="http://www.isnpr.org/publications/" id="isnpr_button" class="left" target="_blank"></a>
 				</div>
 			</div>
 			<!-- Second row of Resource links -->
-			<div class="row push">
+			<div class="row">
 				<!-- Functional Medicine button -->
 				<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 padding-0">
-					<a href="https://www.ifm.org/" id="functional_medicine_button" class="right"></a>
+					<a href="https://www.ifm.org/" id="functional_medicine_button" class="right" target="_blank"></a>
 				</div>
 				<!-- IMMH button -->
 				<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 padding-0">
-					<a href="http://www.immh.org/" id="immh_button"></a>
+					<a href="http://www.immh.org/" id="immh_button" target="_blank"></a>
 				</div>
 				<!-- Empty placeholder button to complete the row -->
 				<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 padding-0">
+					<a href="https://www.simplehormones.com/filley/" id="simpleh_button" class="left" target="_blank"></a>
 				</div>
 			</div>
 		</div>

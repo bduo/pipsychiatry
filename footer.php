@@ -9,12 +9,12 @@ Programmer: Brandon El Haj
 
 <!-- Clear it div to reset the layout for the 3-column bottom -->
 <div class="clear"></div>
-<footer>
+<footer role="contentinfo">
 	<div class="container-fluid">
 		<div class="row left_room">
 			<div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
-			<!-- Youtube favicon. SVG file with dimensions 110px by 42px. -->
-			<a href="https://www.youtube.com/"><img src="/assets/youtube_fav.svg" alt="Tracys Youtube Channel favicon" class="favicon"></a>	
+			<!-- Hippa Notice favicon for Tracy's privacy policy. SVG file with a width of 155px. -->
+			<a href="/pdfs/Tracy_Privacy_Policy.pdf" target="_blank"><img src="/assets/pip_Hippanotice.svg" alt="Portland Integrative Psychiatry Privacy Notice" class="favicon"></a>	
 			<!-- Copyright info for desktop -->
 			<p class="copyright_mobile">
 				&#169;Portland Integrative Psychiatry, LLC 2018
@@ -24,15 +24,15 @@ Programmer: Brandon El Haj
 			<div class="col-xs-0 col-sm-0 col-md-6 col-lg-6">
 				<div id="container_foot">
 					<!-- Spruce Messenger button. SVG file with dimensions 84px by 38px --> 
-					<a href="https://app.sprucehealth.com/login" id="spruce_button"></a>
+					<a href="https://app.sprucehealth.com/login" id="spruce_button" target="_blank"></a>
 					<!-- Puts a gap between footer buttons. -->
 					<div class="divider_foot"></div>
 					<!-- Valent Patient Portal button. SVG file with dimensions 84px by 38px -->
-					<a href="https://www.valantmed.com/Portal/PortlandIntegrativePsychiatry" id="valant_button"></a>
+					<a href="https://www.valantmed.com/Portal/PortlandIntegrativePsychiatry" id="valant_button" target="_blank"></a>
 					<!-- Puts a gap between footer buttons. -->
 					<div class="divider_foot"></div>
 					<!-- Payments Portal button. SVG file with dimensions 84px by 38px -->
-					<a href="https://www.navicurepayments.com/pip/pay#!/" id="pay_button"></a>
+					<a href="https://www.navicurepayments.com/pip/pay#!/" id="pay_button" target="_blank"></a>
 				</div>
 				<!-- Copyright info for desktop -->
 				<p class="copyright">
@@ -62,9 +62,6 @@ Programmer: Brandon El Haj
 
 <!-- Custom JS link -->
 <script type="text/javascript" src="/scripts/pip.js"></script>
-
-<!-- Google Map link -->
- <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAZmQwby43V5xkdwGVnzfAXFtQfk1HZblM&callback=initMap" type="text/javascript"></script>
 
 </body>
 

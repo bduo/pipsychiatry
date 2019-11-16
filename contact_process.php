@@ -8,7 +8,7 @@ if (isset($_POST['submit'])) {
 	$message = $_POST['message'];
 	
 	$from = 'Portland Integrative Psychiatry';
-	$to = 'info@pipsych.com';
+	$to = 'tracy@pipsych.sprucecare.com';
 	$subject = 'New Patient Intake Form';
 	
 	// Fills the content of the email

@@ -9,11 +9,11 @@ Programmer: Brandon El Haj
 
 <?php include 'header.php'; ?>
 
-<main>
+<main role="main">
 	<!-- Intro Section -->
-	<section id="intro">
+	<section id="intro" role="region">
 		<!-- Hiking photo and large logo for hero image. PNG file with dimensions of 1024px x 544px. -->
-		<img src="/assets/heroimage.png" alt="Hiking photo with pipscychiatry Logo" class="hero">
+		<img src="/assets/heroimage.png" alt="Hiking photo for Portland Integrative Psychiatry" class="hero">
 		<!-- Div used for centering the h1 and p content. -->
 		<div class="center_text">
 			<!-- Left aligns the h1 and p content. -->

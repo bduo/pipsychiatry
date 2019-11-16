@@ -9,8 +9,8 @@ Programmer: Brandon El Haj
 
 <?php include 'header.php'; ?>
 
-<main>
-	<section id="team">
+<main role="main">
+	<section id="team" role="region">
 		<!-- Tracys professional bio photo. PNG file with dimensions of 807px x 539px. -->
 		<img src="/assets/pip_tracy.png" alt="Tracys Bio photo for Portland Integrative Psychiatry" class="tracy_bio">
 		<!-- Two column design for the Team paragraph and Akim photo. -->
@@ -53,26 +53,23 @@ Programmer: Brandon El Haj
 						<!-- Akims professional bio photo. PNG file with dimensions of 186px x 293px. -->
 						<img src="/assets/pip_akimweb.png" alt="Photo of Akim Tracys office dog." class="akim"> 	   
 						Akim is a German Shepard<br class="breaks dog">  
-						who had a career change<br class="breaks dog">
-						from Homeland Security<br class="breaks dog">
-						to therapy dog. After just<br class="breaks dog">
-						one week in explosives<br class="breaks dog"> 
-						detection school, he found<br class="breaks dog">
-						he liked working with<br class="breaks dog">
-						people much more and<br class="breaks dog">
-						decided to pursue<br class="breaks dog">
-						functional psychiatry<br class="breaks dog">
-						instead. Tracy adopted<br class="breaks dog">
-						him from San Antonio and<br class="breaks dog">
-						brought him to Portland<br class="breaks dog">
-						in July 2017. He enjoys<br class="breaks dog">
-						chewing on his tennis ball,<br class="breaks dog">
-						doing tricks for treats,<br class="breaks dog">
-						hiking and napping. He is<br class="breaks dog">
-						very playful and sweet and is working hard to become a<br class="breaks dog">
-						certified therapy dog. He comes to the office every day<br class="breaks dog">
-						and mostly sleeps on his bed, only visiting with you if you<br class="breaks dog">
-						invite him.
+						who loves working with<br class="breaks dog">
+						people so he decided to<br class="breaks dog">
+						pursue functional psychiatry.<br class="breaks dog">
+						Tracy adopted him in July <br class="breaks dog"> 
+						2017. He enjoys chewing on <br class="breaks dog">
+						his tennis ball, doing tricks<br class="breaks dog">
+						for treats, hiking and<br class="breaks dog">
+						napping. Most recently, he <br class="breaks dog">
+						has taken up "nose work"<br class="breaks dog">
+						in which he tries to find<br class="breaks dog">
+						hidden treats and toys.<br class="breaks dog">
+						He is very playful and sweet<br class="breaks dog">
+						and is working hard to<br class="breaks dog">
+						become a certified therapy<br class="breaks dog">
+						dog. He comes to the office<br class="breaks dog">
+						everyday and mostly sleeps<br class="breaks dog">
+						on his bed, only visiting with you if you invite him.<br class="breaks dog">
 					</p>	
 				</div>
 			</div>

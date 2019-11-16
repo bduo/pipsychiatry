@@ -6,6 +6,10 @@ Programmer: Brandon El Haj
 	
 /*=== GLOBAL STYLE SECTION ===*/
 
+html {
+	scroll-behavior: smooth;
+}
+
 /* Global body styling */
 body {
 	color: #3f2500;
@@ -16,6 +20,7 @@ body {
 main {
 	padding-top: 70px;
 	position: relative;
+	min-height: 100vh;
 }
 
 /* Global Image styling */ 
@@ -299,9 +304,19 @@ button {
 	background-image: url(/assets/immh_hover.svg);
 }
 
+/* Simple Hormones button svg file with dimensions 178px by 111px */
+#simpleh_button {
+	background-image: url(/assets/simpleh.svg);
+}
+
+#simpleh_button:hover {
+	background-image: url(/assets/simpleh_hover.svg);
+}
+
+
 /* Resources button styling and display */
 #love_button, #additude_button, #isnpr_button,
-#functional_medicine_button, #immh_button {
+#functional_medicine_button, #immh_button, #simpleh_button {
 	width: 178px;
 	height: 111px;
 	display: block;
@@ -325,11 +340,6 @@ button {
 .padding-0{
     padding-right:0;
     padding-left:0;
-}
-
-/* Pushes down footer on Resources page to make the page full */
-.push {
-	margin-bottom: 406px;
 }
 
 /*=== CONTACT SECTION ===*/
@@ -680,12 +690,11 @@ a[href^="tel"] {
 	clear: both;
 }
 
-/* Positioning and Styling for yelp favicon */
+/* Positioning and Styling for Hippa Notice favicon */
 .favicon {
-	width: 110px;
-	height: 42px;
+	width: 155px;
 	display: block;
-	margin-top: 35px;
+	margin-top: 24px;
 	float: right;
 	vertical-align: middle;
 }
@@ -1138,11 +1147,6 @@ a[href^="tel"] {
 		margin-left: 0;
 		padding: 20px;
 	}
-
-	/* Fixes bottom gap between resource link and footer mobile */
-	.push {
-		margin-bottom: 0;
-	}
 	
 	/* Gets rid of float left on functional medicine button */
 	.left {
@@ -1242,7 +1246,7 @@ a[href^="tel"] {
 	/* Puts bottom gap on the bottom of Location page */
 	.gap {
 		margin-top: 0;
-		margin-bottom: 153px;
+		margin-bottom: 0;
 	}
 
 	span {
@@ -1293,9 +1297,9 @@ a[href^="tel"] {
 		display: none;
 	}
 
-	/* Positions yelp logo in footer */
+	/* Positions Hippa Notice favicon in footer */
 	.favicon {
-		margin-top: 40px;
+		margin-top: 37px;
 	}
 
 	/* Hides copyright information in middle column for mobile footer */
@@ -1504,11 +1508,6 @@ a[href^="tel"] {
 
 	#immh_button:active {
 		background-image: url(/assets/immh.svg);
-	}
-
-	/* Pushes down content for Resources page */
-	.push {
-		margin-bottom: 355px;
 	}
 	
 	/* Gets rid of float left on functional medicine button */
@@ -1738,11 +1737,6 @@ a[href^="tel"] {
 		background-image: url(/assets/immh.svg);
 	}
 	
-	/* Pushes down content for Resources page */
-	.push {
-		margin-bottom: 35px;
-	}
-	
 	/* Gets rid of float left on functional medicine button */
 	.left {
 		float: none;
@@ -1788,17 +1782,16 @@ a[href^="tel"] {
 	/* Footer styling for smaller tablet. */
 	footer {
 		width: 100%;
-		height: 130px;
-	}
-
-	/* Hides Yelp icon in footer */
-	.favicon {
-		display: none;
+		height: 205px;
 	}
 
 	/* Hides Tracys professional info */ 
 	.footer_contact {
 		display: none;
+	}
+
+	#pay_button, #spruce_button, #valant_button {
+		margin-top: 22px;
 	}
 	
 		/* Gets rid of hover effect for tablet when button is clicked */

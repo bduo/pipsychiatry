@@ -17,7 +17,7 @@ Programmer: Brandon El Haj
 		<!-- Google Map with dimensions 600px by 600px -->
 		<div id="contain">
 			<iframe width="100%" height="550" frameborder="0" style="border:0"
-			src="https://www.google.com/maps/embed/v1/place?q=%0914523%20Westlake%20Drive%2C%20Suite%204%20Lake%20Oswego%2C%20OR%2097035&key=AIzaSyC0rwyN0M7fSdUb8EyAZnKRI25p0BzDtHk&zoom=13" allowfullscreen></iframe>
+			src="https://www.google.com/maps/embed/v1/place?q=%0914523%20Westlake%20Drive%2C%20Suite%204%20Lake%20Oswego%2C%20OR%2097035&key=AIzaSyAG2mBuB2o3zPJelv6k0fBLR-s6yS6ey3U&zoom=13" allowfullscreen></iframe>
 		</div>
 		<div class="clear"></div>
 		<!-- Row contains PIP logo and Tracys professional contact info -->
