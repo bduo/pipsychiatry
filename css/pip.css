@@ -225,30 +225,13 @@ button {
 
 .service_header {
 	display: block;
-	/* flex-wrap: wrap;
-	width: 100%;
-	justify-content: center;
-	align-items: center; */
 	margin-top: 68px;
 	margin-bottom: 64px;
 	text-align: center;
 	text-transform: uppercase;
 }
 
-/* .service_header:before,
-.service_header:after {
-	content: '';
-	border-top: 1px solid;
-	margin: 0 100px -124px 650px;
-	flex: 1 0 20px;
-}
-
-.service_header:after {
-	margin: -80px 650px 0 100px;
-} */
-
 .upper_service_title {
-	/* flex-basis: 100%; */
 	font-weight: 700;
 	font-size: 56px;
 	margin-bottom: 0;
@@ -256,7 +239,6 @@ button {
 }
 
 .lower_service_title {
-	/* flex-basis: 100%; */
 	font-size: 34px;
 	color: #c74f37;
 }
@@ -352,6 +334,10 @@ button {
 .billing_info {
 	text-align: center;
 	margin: 32px 32px;
+}
+
+.big_bold {
+	font-weight: 700;
 }
 
 /* Styling for book appointment button */
@@ -1218,6 +1204,7 @@ a[href^="tel"] {
 	.intake_icon, .follow_up_icon {
 		width: 140px;
 		min-width: 140px;
+		margin-left: 10px;
 	}
 
 	.column_left {
@@ -1458,7 +1445,7 @@ a[href^="tel"] {
 	/* Styling and sizing for footer background */
 	footer {
 		width: 100%;
-		height: 155px;
+		height: 165px;
 	}
 
 	/* Hides the medical messaging app buttons for mobile */
@@ -1518,7 +1505,7 @@ a[href^="tel"] {
 
 /*=== SMALL DESKTOP MEDIA QUERY ===*/
 
-@media only screen and (min-device-width: 830px) and (max-device-width: 940px) {
+@media only screen and (min-device-width: 830px) and (max-device-width: 1023px) {
 
 	/*=== TEAM SECTION ===*/
 	 
@@ -1530,8 +1517,10 @@ a[href^="tel"] {
 		left: -1px;
 	}
 
+	/*=== SERVICES SECTION ===*/
+
 	.intake_icon, .follow_up_icon {
-		margin-left: 140px;
+		margin-left: 200px;
 	}
 
 	.follow_up_icon, .appoint_tab {

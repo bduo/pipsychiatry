@@ -60,7 +60,7 @@ Programmer: Brandon El Haj
 			</div>	
 		</section>
 		<section class="billing_info">
-			<p>To find out more about pricing and insurance<br/>reimbursements, please contact:<br/><span>Mind Ease Billing Company</span><br/><a href="tel:+19715339911">971.533.9911</a><br/><a href="mailto:benefits@mindeasebilling.com">benefits@mindeasebilling.com</a></p>
+			<p>To find out more about pricing and insurance<br/>reimbursements, please contact:<br/><span class="big_bold">Mind Ease Billing Company</span><br/><a href="tel:+19715339911">971.533.9911</a><br/><a href="mailto:benefits@mindeasebilling.com">benefits@mindeasebilling.com</a></p>
 		</section>			
 		<!-- Schedule Button. SVG file with dimensions 171px by 34px. -->
 		<a href="https://www.pipsychiatry.com/contact.php" id="book_appt_button"></a>	

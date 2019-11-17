@@ -1,1 +1,38 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 95.9 95.9"><defs><style>.cls-1{isolation:isolate;}.cls-2{fill:#fff;}.cls-3{fill:#e3ddd6;mix-blend-mode:multiply;}.cls-4{fill:#c64f36;}.cls-5{fill:#eff1f0;}.cls-6{fill:#b7b8b9;}.cls-7{fill:#f8f6ef;}.cls-8{fill:none;}</style></defs><title>icon_network</title><g class="cls-1"><g id="Layer_2" data-name="Layer 2"><g id="_1" data-name="1"><g id="icon_network"><circle class="cls-2" cx="47.95" cy="47.95" r="47.95"/><rect class="cls-3" x="15.48" y="29.11" width="67.32" height="42.96" rx="2.16"/><path class="cls-4" d="M81.36,29.44V39.5H14V29.44a2.16,2.16,0,0,1,2.16-2.16h63A2.16,2.16,0,0,1,81.36,29.44Z"/><path class="cls-5" d="M81.36,39.5V68.08a2.16,2.16,0,0,1-2.16,2.16h-63A2.16,2.16,0,0,1,14,68.08V39.5Z"/><rect class="cls-6" x="25.47" y="52.98" width="44.46" height="2.91" rx="0.77"/><rect class="cls-6" x="25.47" y="47.69" width="44.46" height="2.91" rx="0.77"/><rect class="cls-6" x="25.47" y="58.41" width="44.46" height="2.91" rx="0.77"/><polygon class="cls-7" points="25.76 32.59 23.03 32.59 23.03 29.86 21.27 29.86 21.27 32.59 18.53 32.59 18.53 34.36 21.27 34.36 21.27 37.09 23.03 37.09 23.03 34.36 25.76 34.36 25.76 32.59"/><line class="cls-8" x1="14.5" y1="39.5" x2="13.17" y2="39.5"/></g></g></g></g></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 100 100" style="enable-background:new 0 0 100 100;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;}
+	.st1{fill:#E3DDD6;}
+	.st2{fill:#C64F36;}
+	.st3{fill:#EFF1F0;}
+	.st4{fill:#B7B8B9;}
+	.st5{fill:#F8F6EF;}
+	.st6{fill:none;}
+</style>
+<title>icon_network</title>
+<g>
+	<g id="Layer_2_1_">
+		<g id="_1">
+			<g id="icon_network">
+				<circle class="st0" cx="50" cy="50" r="50"/>
+				<path class="st1" d="M18.4,30.4h65.7c1.2,0,2.3,1,2.3,2.3v40.3c0,1.2-1,2.3-2.3,2.3H18.4c-1.2,0-2.3-1-2.3-2.3V32.6
+					C16.1,31.4,17.2,30.4,18.4,30.4z"/>
+				<path class="st2" d="M84.8,30.7v10.5H14.6V30.7c0-1.2,1-2.3,2.3-2.3h65.7C83.8,28.4,84.8,29.4,84.8,30.7
+					C84.8,30.7,84.8,30.7,84.8,30.7z"/>
+				<path class="st3" d="M84.8,41.2V71c0,1.2-1,2.3-2.3,2.3h0H16.9c-1.2,0-2.3-1-2.3-2.2c0,0,0,0,0,0V41.2H84.8z"/>
+				<path class="st4" d="M27.4,55.2h44.8c0.4,0,0.8,0.4,0.8,0.8v1.4c0,0.4-0.4,0.8-0.8,0.8H27.4c-0.4,0-0.8-0.4-0.8-0.8V56
+					C26.6,55.6,26.9,55.2,27.4,55.2z"/>
+				<path class="st4" d="M27.4,49.7h44.8c0.4,0,0.8,0.4,0.8,0.8V52c0,0.4-0.4,0.8-0.8,0.8H27.4c-0.4,0-0.8-0.4-0.8-0.8v-1.4
+					C26.6,50.1,26.9,49.7,27.4,49.7z"/>
+				<path class="st4" d="M27.4,60.9h44.8c0.4,0,0.8,0.4,0.8,0.8v1.4c0,0.4-0.4,0.8-0.8,0.8H27.4c-0.4,0-0.8-0.4-0.8-0.8v-1.4
+					C26.6,61.3,26.9,60.9,27.4,60.9z"/>
+				<polygon class="st5" points="26.9,34 24,34 24,31.1 22.2,31.1 22.2,34 19.3,34 19.3,35.8 22.2,35.8 22.2,38.7 24,38.7 24,35.8 
+					26.9,35.8 				"/>
+				<line class="st6" x1="15.1" y1="41.2" x2="13.7" y2="41.2"/>
+			</g>
+		</g>
+	</g>
+</g>
+</svg>
