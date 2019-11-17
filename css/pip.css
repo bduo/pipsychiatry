@@ -257,6 +257,10 @@ button {
 	flex-basis: 100%;
 }
 
+.column_break {
+	flex-grow: 0.25;
+}
+
 .column {
 	display: flex;
 	flex-direction: column;
@@ -337,7 +341,7 @@ button {
 }
 
 .big_bold {
-	font-weight: 700;
+	font-weight:700;
 }
 
 /* Styling for book appointment button */
@@ -1519,10 +1523,10 @@ a[href^="tel"] {
 
 	/*=== SERVICES SECTION ===*/
 
-	.intake_icon, .follow_up_icon {
-		margin-left: 200px;
+	.column_break {
+		flex-basis: 50%;
 	}
-
+	
 	.follow_up_icon, .appoint_tab {
 		padding-top: 40px;
 	}
@@ -1883,7 +1887,7 @@ a[href^="tel"] {
 	.intake_icon, .follow_up_icon {
 		margin-left: 80px;
 	}
-	
+
 	.follow_up_icon, .appoint_tab {
 		padding-top: 40px;
 	}
