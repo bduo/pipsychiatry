@@ -229,10 +229,10 @@ button {
 	width: 100%;
 	justify-content: center;
 	align-items: center; */
-	margin: 68px 64px;
+	margin-top: 68px;
+	margin-bottom: 64px;
 	text-align: center;
 	text-transform: uppercase;
-	
 }
 
 /* .service_header:before,
@@ -261,6 +261,99 @@ button {
 	color: #c74f37;
 }
 
+.appointment_wrapper {
+	margin-right: 50px;
+	margin-left: 50px;
+	color: #003b41;
+}
+
+.row {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 100%;
+	flex-basis: 100%;
+}
+
+.column {
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+	align-items: center;
+}
+
+.column_left {
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+	justify-content: left;
+}
+
+.intake_icon, .follow_up_icon {
+	min-width: 160px;
+	width: 160px;
+}
+
+.appoint_title {
+	font-family: 'Barlow', sans-serif; 
+	font-size: 28px;
+	line-height: 32px;
+}
+
+.appoint_paragraph {
+	font-size: 16px;
+	line-height: 21px;
+	width: 250px;
+	max-width: 250px;
+	font-weight: 400;
+}
+
+.appointment_details_wrapper {
+	background-image: url(/assets/pattern_BG.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 875px;
+	margin-top: 54px;
+}
+
+.meds_icon, .network_icon,
+.calendar_icon, .wallet_icon {
+	min-width: 160px;
+	width: 160px;
+	padding-bottom: 16px;
+}
+
+.pad_top {
+	padding-top: 54px;
+	padding-bottom: 54px;
+}
+
+.pad_bottom {
+	padding-bottom: 54px;
+}
+
+.appoint_detail_title {
+	font-family: 'Barlow', sans-serif; 
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 26px;
+	color: #c74f37; 
+}
+
+.appoint_detail_paragraph {
+	font-size: 16px;
+	line-height: 24px;
+	text-align: center;
+	width: 350px;
+	max-width: 350px;
+	padding-top: 8px;
+}
+
+.billing_info {
+	text-align: center;
+	margin: 32px 32px;
+}
+
 /* Styling for book appointment button */
 #book_appt_button {
 	background-image: url(/assets/book_appt_button.svg);
@@ -277,17 +370,6 @@ button {
 #book_appt_button:hover {
 	background-image: url(/assets/book_appt_hover.svg);
 }
-
-/* Positions the services graphic on the center of the page. */ 
-/* .services {
-	width: 518px;
-	height: 851px;
-	margin-right: auto;
-	margin-left: auto;
-	display: block;
-	margin-top: 50px !important;
-	margin-bottom: 40px;
-} */
 
 /*=== RESOURCES SECTION ===*/
 
@@ -765,7 +847,7 @@ a[href^="tel"] {
 
 /*=== SMALLER MOBILE MEDIA QUERY ===*/
 
-@media only screen and (max-device-width : 320px) {
+@media only screen and (max-device-width : 325px) {
 	
 	/*=== TEAM SECTION ===*/
 	
@@ -776,6 +858,19 @@ a[href^="tel"] {
 	
 	.akim_pos {
 		margin-left: 15px !important;
+	}
+
+	/*=== SERVICES SECTION ===*/
+
+	.appoint_detail_paragraph {
+		width: 250px !important;
+		max-width: 250px !important;
+	}
+
+	.appoint_paragraph {
+		text-align: center !important;
+		width: 200px !important;
+		max-width: 200px !important;
 	}
 	
 	/*=== CONTACT SECTION ===*/
@@ -1111,6 +1206,50 @@ a[href^="tel"] {
 	}
 
 	/*=== SERVICES SECTION ===*/
+	.service_header {
+		margin-top: 34px;
+		margin-bottom: 32px;
+	}
+
+	.upper_service_title, .lower_service_title {
+		margin: 0;
+	}
+
+	.intake_icon, .follow_up_icon {
+		width: 140px;
+		min-width: 140px;
+	}
+
+	.column_left {
+		justify-content: center;
+		align-items: center;
+		padding-top: 15px;
+		padding-bottom: 32px;
+	}
+
+	.column_tab {
+		padding-bottom: 32px;
+	}
+
+	.appoint_paragraph {
+		margin: 0;
+		text-align: center;
+	}
+
+	.appointment_details_wrapper {
+		height: 1525px;
+	}
+
+	.pad_top {
+		padding-bottom: 0;
+	}
+
+	.appoint_detail_paragraph {
+		width: 300px;
+		max-width: 300px;
+		line-height: 21px;
+		padding-top: 2px;
+	}
 
 	/* Creates gap between button and footer */
 	#book_appt_button {
@@ -1123,13 +1262,6 @@ a[href^="tel"] {
 	
 	#book_appt_button:active {
 		background-image: url(/assets/book_appt_button.svg);
-	}
-	
-	/* Creates space on top between services graphic and header */
-	.services {
-		width: 100%;
-		height: 100%;
-		margin-top: 20px !important;
 	}
 
 	/*=== RESOURCES SECTION ===*/
@@ -1386,7 +1518,7 @@ a[href^="tel"] {
 
 /*=== SMALL DESKTOP MEDIA QUERY ===*/
 
-@media only screen and (min-device-width: 871px) and (max-device-width: 940px) {
+@media only screen and (min-device-width: 830px) and (max-device-width: 940px) {
 
 	/*=== TEAM SECTION ===*/
 	 
@@ -1397,12 +1529,24 @@ a[href^="tel"] {
 	.akim_pos {
 		left: -1px;
 	}
+
+	.intake_icon, .follow_up_icon {
+		margin-left: 140px;
+	}
+
+	.follow_up_icon, .appoint_tab {
+		padding-top: 40px;
+	}
+
+	.service_header {
+		margin-bottom: 50px;
+	}
 		
 }
 
 /*=== LARGER TABLET MEDIA QUERY ===*/
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 870px) {
+@media only screen and (min-device-width: 768px) and (max-device-width: 829px) {
 	
 	/*=== GLOBAL STYLE SECTION ===*/
 
@@ -1490,6 +1634,36 @@ a[href^="tel"] {
 	}
 
 	/*=== SERVICES SECTION ===*/
+
+	.intake_icon, .follow_up_icon {
+		margin-left: 80px;
+	}
+	
+	.follow_up_icon, .appoint_tab {
+		padding-top: 40px;
+	}
+
+	.column_tab {
+		padding-bottom: 32px;
+		flex-basis: 100%;
+	}
+
+	.appointment_details_wrapper {
+		height: 1450px;
+	}
+
+	.appoint_detail_paragraph {
+		padding-top: 4px;
+	}
+
+	.service_header {
+		margin-top: 52px;
+		margin-bottom: 50px;
+	}
+
+	.pad_top {
+		padding-bottom: 0;
+	}
 
 	/* Gets rid of hover effect for smaller tablet when button is clicked */
 	#book_appt_button:link {
@@ -1717,6 +1891,30 @@ a[href^="tel"] {
 	
 	/*=== SERVICES SECTION ===*/
 
+	.intake_icon, .follow_up_icon {
+		margin-left: 80px;
+	}
+	
+	.follow_up_icon, .appoint_tab {
+		padding-top: 40px;
+	}
+
+	.appointment_details_wrapper {
+		height: 1450px;
+	}
+
+	.service_header {
+		margin-bottom: 50px;
+	}
+
+	.pad_top {
+		padding-bottom: 0;
+	}
+
+	.column_tab {
+		padding-bottom: 32px;
+	}
+
 	/* Gets rid of hover effect for smaller tablet when button is clicked */
 	#book_appt_button:link {
 		background-image: url(/assets/book_appt_button.svg);
@@ -1860,4 +2058,26 @@ a[href^="tel"] {
 	#spruce_button:active {
 		background-image: url(/assets/spruce_button.svg);
 	}
+}
+
+/*=== LARGER DESKTOP MEDIA QUERY ===*/
+@media only screen and (min-device-width: 1200px) {
+	
+	/*=== SERVICES SECTION ===*/
+
+	.intake_icon, .follow_up_icon {
+		margin-left: 60px;
+	}
+
 }	
+
+/*=== EXTRA LARGER DESKTOP MEDIA QUERY ===*/
+@media only screen and (min-device-width: 1400px) {
+	
+	/*=== SERVICES SECTION ===*/
+
+	.intake_icon, .follow_up_icon {
+		margin-left: 100px;
+	}
+
+}
