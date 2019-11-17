@@ -18,11 +18,11 @@ Programmer: Brandon El Haj
 		<div class="container-fluid">
 			<!-- First row of Resource links -->
 			<div class="row">
-				<!-- Love and Plants button -->
+				<!-- Simple Hormones button -->
 				<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 padding-0">
 					<a href="https://www.simplehormones.com/filley/" id="simpleh_button" class="right" target="_blank"></a>
 				</div>
-				
+				<!-- Love and Plants button -->
 				<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 padding-0">
 					<a href="https://loveandplants.com/" id="love_button" target="_blank"></a>
 				</div>
