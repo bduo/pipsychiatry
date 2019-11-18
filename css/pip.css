@@ -41,8 +41,8 @@ h1 {
 /* Global paragraph styling */
 p {
 	font-family: 'Montserrat', sans-serif;
-	font-size: 13px;
-	line-height: 18.3px;
+	font-size: 13.5px;
+	line-height: 20.3px;
 	font-weight: 400;
 }
 
@@ -288,7 +288,7 @@ button {
 
 .appoint_paragraph {
 	font-size: 16px;
-	line-height: 21px;
+	line-height: 23px;
 	width: 250px;
 	max-width: 250px;
 	font-weight: 400;
@@ -328,7 +328,7 @@ button {
 
 .appoint_detail_paragraph {
 	font-size: 16px;
-	line-height: 24px;
+	line-height: 23px;
 	text-align: center;
 	width: 350px;
 	max-width: 350px;
@@ -338,6 +338,12 @@ button {
 .billing_info {
 	text-align: center;
 	margin: 32px 32px;
+}
+
+.big_bold, .bill_phone,
+.bill_paragraph {
+	font-size: 14.5px;
+	line-height: 21.2px;
 }
 
 .big_bold {
@@ -863,6 +869,16 @@ a[href^="tel"] {
 		max-width: 200px !important;
 	}
 	
+	.big_bold, .bill_phone,
+	.bill_paragraph {
+		font-size: 12px !important;
+		line-height: 18px !important;
+	}
+
+	.appointment_details_wrapper {
+		height: 1560px !important;
+	}
+
 	/*=== CONTACT SECTION ===*/
 	
 	/* Fixes contact form paragraph for mobile */
@@ -1238,8 +1254,14 @@ a[href^="tel"] {
 	.appoint_detail_paragraph {
 		width: 300px;
 		max-width: 300px;
-		line-height: 21px;
+		line-height: 23px;
 		padding-top: 2px;
+	}
+
+	.big_bold, .bill_phone,
+	.bill_paragraph {
+		font-size: 13.5px;
+		line-height: 19px;
 	}
 
 	/* Creates gap between button and footer */
@@ -1534,6 +1556,11 @@ a[href^="tel"] {
 	.service_header {
 		margin-bottom: 50px;
 	}
+
+	.appointment_wrapper {
+		margin-right: 140px;
+		margin-left: 140px;
+	}
 		
 }
 
@@ -1647,6 +1674,13 @@ a[href^="tel"] {
 
 	.appoint_detail_paragraph {
 		padding-top: 4px;
+		font-size: 15px;
+		line-height: 23px;
+	}
+
+	.appoint_paragraph {
+		font-size: 15px;
+		line-height: 23px;
 	}
 
 	.service_header {
@@ -2062,15 +2096,51 @@ a[href^="tel"] {
 		margin-left: 60px;
 	}
 
-}	
+	.appointment_wrapper {
+		margin-right: 80px;
+		margin-left: 80px;
+	}
 
+	.appointment_details_wrapper {
+		padding-right: 80px;
+		padding-left: 80px;
+	}
+}
+
+/*=== LARGER DESKTOP MEDIA QUERY ===*/
+@media only screen and (min-device-width: 1450px) {
+
+	.intake_icon, .follow_up_icon {
+		margin-left: 80px;
+	}
+
+	.appointment_wrapper {
+		margin-right: 120px;
+		margin-left: 120px;
+	}
+
+	.appointment_details_wrapper {
+		padding-right: 120px;
+		padding-left: 120px;
+	}
+
+}	
 /*=== EXTRA LARGER DESKTOP MEDIA QUERY ===*/
-@media only screen and (min-device-width: 1400px) {
+@media only screen and (min-device-width: 1600px) {
 	
 	/*=== SERVICES SECTION ===*/
 
+	.appointment_wrapper {
+		margin-right: 140px;
+		margin-left: 140px;
+	}
+
+	.appointment_details_wrapper {
+		padding-right: 140px;
+		padding-left: 140px;
+	}
 	.intake_icon, .follow_up_icon {
-		margin-left: 100px;
+		margin-left: 110px;
 	}
 
 }

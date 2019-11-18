@@ -67,8 +67,7 @@ Programmer: Brandon El Haj
 						He is very playful and sweet<br class="breaks dog">
 						and is working hard to<br class="breaks dog">
 						become a certified therapy<br class="breaks dog">
-						dog. He comes to the office<br class="breaks dog">
-						everyday and mostly sleeps<br class="breaks dog">
+						dog. He comes to the office everyday and mostly sleeps<br class="breaks dog">
 						on his bed, only visiting with you if you invite him.<br class="breaks dog">
 					</p>	
 				</div>

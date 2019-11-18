@@ -27,7 +27,7 @@ Programmer: Brandon El Haj
 				<div class="column column_break"><img src="/assets/icon_50min.svg" class="follow_up_icon" alt="50 mins appointment icon"></div>
 				<div class="column_left column_break">
 					<h2 class="appoint_title appoint_tab">FOLLOW-UP</h2>
-					<p class="appoint_paragraph">Tracy will work with you to change the lifestyle and dietary factors that are contributing to your symptoms</p>
+					<p class="appoint_paragraph">Tracy will work with you to change the lifestyle and dietary factors that are contributing to your symptoms.</p>
 				</div>
 			</div>
 		</section>
@@ -50,7 +50,7 @@ Programmer: Brandon El Haj
 				<div class="column column_tab">
 					<img src="/assets/icon_calendar.svg" class="calendar_icon" alt="calendar for monthly subscription icon">
 					<h2 class="appoint_detail_title">MONTHLY SUBSCRIPTION</h2>
-					<p class="appoint_detail_paragraph">Includes access to online health data storage and communication platform which enables you to interact with Tracy about your health goals and receive education and support</p>
+					<p class="appoint_detail_paragraph">Includes access to online health data storage and communication platform which enables you to interact with Tracy about your health goals and receive education and support.</p>
 				</div>
 				<div class="column column_tab">
 					<img src="/assets/icon_wallet.svg" class="wallet_icon" alt="wallet icon">
@@ -60,7 +60,7 @@ Programmer: Brandon El Haj
 			</div>	
 		</section>
 		<section class="billing_info">
-			<p>To find out more about pricing and insurance<br/>reimbursements, please contact:<br/><span class="big_bold">Mind Ease Billing Company</span><br/><a href="tel:+19715339911">971.533.9911</a><br/><a href="mailto:benefits@mindeasebilling.com">benefits@mindeasebilling.com</a></p>
+			<p class="bill_paragraph">To find out more about pricing and insurance<br/>reimbursements, please contact:<br/><span class="big_bold">Mind Ease Billing Company</span><br/><a href="tel:+19715339911" class="bill_phone">971.533.9911</a><br/><a href="mailto:benefits@mindeasebilling.com">benefits@mindeasebilling.com</a></p>
 		</section>			
 		<!-- Schedule Button. SVG file with dimensions 171px by 34px. -->
 		<a href="https://www.pipsychiatry.com/contact.php" id="book_appt_button"></a>	
