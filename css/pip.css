@@ -1534,6 +1534,11 @@ a[href^="tel"] {
 	.service_header {
 		margin-bottom: 50px;
 	}
+
+	.appointment_wrapper {
+		margin-right: 140px;
+		margin-left: 140px;
+	}
 		
 }
 
@@ -2062,15 +2067,51 @@ a[href^="tel"] {
 		margin-left: 60px;
 	}
 
-}	
+	.appointment_wrapper {
+		margin-right: 80px;
+		margin-left: 80px;
+	}
 
+	.appointment_details_wrapper {
+		padding-right: 80px;
+		padding-left: 80px;
+	}
+}
+
+/*=== LARGER DESKTOP MEDIA QUERY ===*/
+@media only screen and (min-device-width: 1450px) {
+
+	.intake_icon, .follow_up_icon {
+		margin-left: 80px;
+	}
+
+	.appointment_wrapper {
+		margin-right: 120px;
+		margin-left: 120px;
+	}
+
+	.appointment_details_wrapper {
+		padding-right: 120px;
+		padding-left: 120px;
+	}
+
+}	
 /*=== EXTRA LARGER DESKTOP MEDIA QUERY ===*/
-@media only screen and (min-device-width: 1400px) {
+@media only screen and (min-device-width: 1600px) {
 	
 	/*=== SERVICES SECTION ===*/
 
+	.appointment_wrapper {
+		margin-right: 140px;
+		margin-left: 140px;
+	}
+
+	.appointment_details_wrapper {
+		padding-right: 140px;
+		padding-left: 140px;
+	}
 	.intake_icon, .follow_up_icon {
-		margin-left: 100px;
+		margin-left: 110px;
 	}
 
 }
