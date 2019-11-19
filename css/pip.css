@@ -244,9 +244,34 @@ button {
 }
 
 .appointment_wrapper {
-	margin-right: 50px;
-	margin-left: 50px;
+	/* margin-right: 50px;
+	margin-left: 50px; */
+	display: grid;
+	grid-template-columns: 160px 250px 160px 250px;
+	justify-content: center;
+	justify-items: end;
+	grid-gap: 25px;
 	color: #003b41;
+}
+
+.intake_icon {
+	grid-column-start: 1;
+	grid-column-end: 2;
+}
+
+.intake_text {
+	grid-column-start: 2;
+	grid-column-end: 3;
+}
+
+.follow_icon {
+	grid-column-start: 3;
+	grid-column-end: 4;
+}
+
+.follow_text {
+	grid-column-start: 4;
+	grid-column-end: 5;
 }
 
 .row {
@@ -298,8 +323,9 @@ button {
 	background-image: url(/assets/pattern_BG.png);
 	background-repeat: no-repeat;
 	background-size: cover;
-	height: 875px;
+	height: auto;
 	margin-top: 54px;
+	padding-right: 
 }
 
 .meds_icon, .network_icon,
@@ -875,10 +901,6 @@ a[href^="tel"] {
 		line-height: 18px !important;
 	}
 
-	.appointment_details_wrapper {
-		height: 1560px !important;
-	}
-
 	/*=== CONTACT SECTION ===*/
 	
 	/* Fixes contact form paragraph for mobile */
@@ -1224,7 +1246,7 @@ a[href^="tel"] {
 	.intake_icon, .follow_up_icon {
 		width: 140px;
 		min-width: 140px;
-		margin-left: 10px;
+		/* margin-left: 10px; */
 	}
 
 	.column_left {
@@ -1241,10 +1263,6 @@ a[href^="tel"] {
 	.appoint_paragraph {
 		margin: 0;
 		text-align: center;
-	}
-
-	.appointment_details_wrapper {
-		height: 1525px;
 	}
 
 	.pad_top {
@@ -1557,11 +1575,10 @@ a[href^="tel"] {
 		margin-bottom: 50px;
 	}
 
-	.appointment_wrapper {
+	/* .appointment_wrapper {
 		margin-right: 140px;
 		margin-left: 140px;
-	}
-		
+	} */
 }
 
 /*=== LARGER TABLET MEDIA QUERY ===*/
@@ -1654,11 +1671,11 @@ a[href^="tel"] {
 	}
 
 	/*=== SERVICES SECTION ===*/
-
+/* 
 	.intake_icon, .follow_up_icon {
 		margin-left: 80px;
-	}
-	
+	} */
+
 	.follow_up_icon, .appoint_tab {
 		padding-top: 40px;
 	}
@@ -1666,10 +1683,6 @@ a[href^="tel"] {
 	.column_tab {
 		padding-bottom: 32px;
 		flex-basis: 100%;
-	}
-
-	.appointment_details_wrapper {
-		height: 1450px;
 	}
 
 	.appoint_detail_paragraph {
@@ -1918,16 +1931,12 @@ a[href^="tel"] {
 	
 	/*=== SERVICES SECTION ===*/
 
-	.intake_icon, .follow_up_icon {
+	/* .intake_icon, .follow_up_icon {
 		margin-left: 80px;
-	}
+	} */
 
 	.follow_up_icon, .appoint_tab {
 		padding-top: 40px;
-	}
-
-	.appointment_details_wrapper {
-		height: 1450px;
 	}
 
 	.service_header {
@@ -2092,14 +2101,9 @@ a[href^="tel"] {
 	
 	/*=== SERVICES SECTION ===*/
 
-	.intake_icon, .follow_up_icon {
+	/* .intake_icon, .follow_up_icon {
 		margin-left: 60px;
-	}
-
-	.appointment_wrapper {
-		margin-right: 80px;
-		margin-left: 80px;
-	}
+	} */
 
 	.appointment_details_wrapper {
 		padding-right: 80px;
@@ -2110,18 +2114,13 @@ a[href^="tel"] {
 /*=== LARGER DESKTOP MEDIA QUERY ===*/
 @media only screen and (min-device-width: 1450px) {
 
-	.intake_icon, .follow_up_icon {
+	/* .intake_icon, .follow_up_icon {
 		margin-left: 80px;
-	}
-
-	.appointment_wrapper {
-		margin-right: 120px;
-		margin-left: 120px;
-	}
+	} */
 
 	.appointment_details_wrapper {
-		padding-right: 120px;
-		padding-left: 120px;
+		padding-right: 130px;
+		padding-left: 130px;
 	}
 
 }	
@@ -2139,8 +2138,8 @@ a[href^="tel"] {
 		padding-right: 140px;
 		padding-left: 140px;
 	}
-	.intake_icon, .follow_up_icon {
+	/* .intake_icon, .follow_up_icon {
 		margin-left: 110px;
-	}
+	} */
 
 }
