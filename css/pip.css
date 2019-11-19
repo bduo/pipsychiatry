@@ -253,12 +253,8 @@ button {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-	width: 100%;
-	flex-basis: 100%;
-}
-
-.column_break {
-	flex-grow: 0.25;
+	/* width: 100%;
+	flex-basis: 100%; */
 }
 
 .column {
@@ -268,11 +264,18 @@ button {
 	align-items: center;
 }
 
-.column_left {
+.column_icon {
 	display: flex;
 	flex-direction: column;
 	flex: 1;
-	justify-content: left;
+	align-items: flex-end;
+}
+
+.column_text {
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+	padding-left: 30px;
 }
 
 .intake_icon, .follow_up_icon {
@@ -298,7 +301,7 @@ button {
 	background-image: url(/assets/pattern_BG.png);
 	background-repeat: no-repeat;
 	background-size: cover;
-	height: 875px;
+	height: auto;
 	margin-top: 54px;
 }
 
@@ -875,10 +878,6 @@ a[href^="tel"] {
 		line-height: 18px !important;
 	}
 
-	.appointment_details_wrapper {
-		height: 1560px !important;
-	}
-
 	/*=== CONTACT SECTION ===*/
 	
 	/* Fixes contact form paragraph for mobile */
@@ -1224,14 +1223,18 @@ a[href^="tel"] {
 	.intake_icon, .follow_up_icon {
 		width: 140px;
 		min-width: 140px;
-		margin-left: 10px;
 	}
 
-	.column_left {
+	.column_text {
 		justify-content: center;
 		align-items: center;
 		padding-top: 15px;
 		padding-bottom: 32px;
+		padding-left: 0;
+	}
+
+	.column_icon {
+		align-items: center;
 	}
 
 	.column_tab {
@@ -1241,10 +1244,6 @@ a[href^="tel"] {
 	.appoint_paragraph {
 		margin: 0;
 		text-align: center;
-	}
-
-	.appointment_details_wrapper {
-		height: 1525px;
 	}
 
 	.pad_top {
@@ -1544,10 +1543,6 @@ a[href^="tel"] {
 	}
 
 	/*=== SERVICES SECTION ===*/
-
-	.column_break {
-		flex-basis: 50%;
-	}
 	
 	.follow_up_icon, .appoint_tab {
 		padding-top: 40px;
@@ -1558,8 +1553,8 @@ a[href^="tel"] {
 	}
 
 	.appointment_wrapper {
-		margin-right: 140px;
-		margin-left: 140px;
+		margin-right: 190px;
+		margin-left: 110px;
 	}
 		
 }
@@ -1655,10 +1650,11 @@ a[href^="tel"] {
 
 	/*=== SERVICES SECTION ===*/
 
-	.intake_icon, .follow_up_icon {
-		margin-left: 80px;
+	.appointment_wrapper {
+		margin-right: 100px;
+		margin-left: 100px;
 	}
-	
+
 	.follow_up_icon, .appoint_tab {
 		padding-top: 40px;
 	}
@@ -1666,10 +1662,6 @@ a[href^="tel"] {
 	.column_tab {
 		padding-bottom: 32px;
 		flex-basis: 100%;
-	}
-
-	.appointment_details_wrapper {
-		height: 1450px;
 	}
 
 	.appoint_detail_paragraph {
@@ -1918,16 +1910,8 @@ a[href^="tel"] {
 	
 	/*=== SERVICES SECTION ===*/
 
-	.intake_icon, .follow_up_icon {
-		margin-left: 80px;
-	}
-
 	.follow_up_icon, .appoint_tab {
 		padding-top: 40px;
-	}
-
-	.appointment_details_wrapper {
-		height: 1450px;
 	}
 
 	.service_header {
@@ -2092,10 +2076,6 @@ a[href^="tel"] {
 	
 	/*=== SERVICES SECTION ===*/
 
-	.intake_icon, .follow_up_icon {
-		margin-left: 60px;
-	}
-
 	.appointment_wrapper {
 		margin-right: 80px;
 		margin-left: 80px;
@@ -2109,10 +2089,6 @@ a[href^="tel"] {
 
 /*=== LARGER DESKTOP MEDIA QUERY ===*/
 @media only screen and (min-device-width: 1450px) {
-
-	.intake_icon, .follow_up_icon {
-		margin-left: 80px;
-	}
 
 	.appointment_wrapper {
 		margin-right: 120px;
@@ -2138,9 +2114,6 @@ a[href^="tel"] {
 	.appointment_details_wrapper {
 		padding-right: 140px;
 		padding-left: 140px;
-	}
-	.intake_icon, .follow_up_icon {
-		margin-left: 110px;
 	}
 
 }
