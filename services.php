@@ -18,12 +18,12 @@ Programmer: Brandon El Haj
 		</div>
 		<section class="appointment_wrapper">
 			<div class="item intake_icon_column"><img src="/assets/icon_90min.svg" class="intake_icon" alt="90 to 120 mins appointment icon"></div>
+			<div class="item follow_icon_column"><img src="/assets/icon_50min.svg" class="follow_up_icon" alt="50 mins appointment icon"></div>
 			<div class="item intake_text">
 				<h2 class="appoint_title">INTAKE</h2>
 				<p class="appoint_paragraph">Prior to the first appointment you'll be asked to complete an in-depth questionnaire and blood work to assist Tracy in identifying nutritional, lifestyle, gastrointestinal and hormonal factors that may be contributing to your symptoms. Then entire assessment takes about five hours, of which about 2 hours are face to face time with Tracy.
 				</p>
 			</div>
-			<div class="item follow_icon_column"><img src="/assets/icon_50min.svg" class="follow_up_icon" alt="50 mins appointment icon"></div>
 			<div class="item follow_text">
 				<h2 class="appoint_title appoint_tab">FOLLOW-UP</h2>
 				<p class="appoint_paragraph">Tracy will work with you to change the lifestyle and dietary factors that are contributing to your symptoms.</p>

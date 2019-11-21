@@ -247,14 +247,18 @@ button {
 	/* margin-right: 50px;
 	margin-left: 50px; */
 	display: grid;
-	grid-template-columns: 160px 250px 160px 250px;
+	grid-template-columns: auto auto;
 	justify-content: center;
 	justify-items: end;
 	grid-gap: 25px;
 	color: #003b41;
 }
 
-.intake_icon {
+.intake_icon_column, .follow_icon_column {
+	justify-self: start;
+}
+
+/* .intake_icon {
 	grid-column-start: 1;
 	grid-column-end: 2;
 }
@@ -272,7 +276,7 @@ button {
 .follow_text {
 	grid-column-start: 4;
 	grid-column-end: 5;
-}
+} */
 
 .row {
 	display: flex;
@@ -301,8 +305,8 @@ button {
 }
 
 .intake_icon, .follow_up_icon {
-	min-width: 160px;
-	width: 160px;
+	min-width: 100px;
+	width: 100px;
 }
 
 .appoint_title {
@@ -1282,6 +1286,11 @@ a[href^="tel"] {
 		line-height: 19px;
 	}
 
+	.appointment_wrapper {
+		display: grid;
+		grid-template-columns: auto;
+	}
+
 	/* Creates gap between button and footer */
 	#book_appt_button {
 		margin-bottom: 50px !important;
@@ -1575,10 +1584,10 @@ a[href^="tel"] {
 		margin-bottom: 50px;
 	}
 
-	/* .appointment_wrapper {
-		margin-right: 140px;
-		margin-left: 140px;
-	} */
+	.appointment_wrapper {
+		display: grid;
+		grid-template-columns: auto auto;
+	}
 }
 
 /*=== LARGER TABLET MEDIA QUERY ===*/
@@ -1675,6 +1684,11 @@ a[href^="tel"] {
 	.intake_icon, .follow_up_icon {
 		margin-left: 80px;
 	} */
+
+	.appointment_wrapper {
+		display: grid;
+		grid-template-columns: auto auto;
+	}
 
 	.follow_up_icon, .appoint_tab {
 		padding-top: 40px;
@@ -1934,6 +1948,11 @@ a[href^="tel"] {
 	/* .intake_icon, .follow_up_icon {
 		margin-left: 80px;
 	} */
+
+	.appointment_wrapper {
+		display: grid;
+		grid-template-columns: auto auto;
+	}
 
 	.follow_up_icon, .appoint_tab {
 		padding-top: 40px;
