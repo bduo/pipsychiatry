@@ -253,8 +253,12 @@ button {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-	/* width: 100%;
-	flex-basis: 100%; */
+	width: 100%;
+	flex-basis: 100%;
+}
+
+.break {
+	display: none;
 }
 
 .column {
@@ -924,7 +928,7 @@ a[href^="tel"] {
 
 /*=== LARGER MOBILE MEDIA QUERY ===*/
 
-@media only screen and (max-device-width : 640px) {
+@media only screen and (max-device-width : 629px) {
 
 	/*=== GLOBAL STYLE SECTION ===*/
 
@@ -1556,6 +1560,15 @@ a[href^="tel"] {
 		margin-right: 190px;
 		margin-left: 110px;
 	}
+
+	.row {
+		flex-grow: 2;
+	}
+
+	.break {
+		display: flex;
+		flex-basis: 100%;
+	}
 		
 }
 
@@ -1659,6 +1672,15 @@ a[href^="tel"] {
 		padding-top: 40px;
 	}
 
+	.row {
+		flex-grow: 2;
+	}
+
+	.break {
+		display: flex;
+		flex-basis: 100%;
+	}
+		
 	.column_tab {
 		padding-bottom: 32px;
 		flex-basis: 100%;
@@ -1861,7 +1883,7 @@ a[href^="tel"] {
 
 /*=== SMALLER TABLET MEDIA QUERY ===*/
 
-@media only screen and (min-device-width: 641px) and (max-device-width: 767px) {
+@media only screen and (min-device-width: 630px) and (max-device-width: 767px) {
 
 	/*=== NAVBAR SECTION ===*/
 
@@ -1924,6 +1946,15 @@ a[href^="tel"] {
 
 	.column_tab {
 		padding-bottom: 32px;
+	}
+
+	.row {
+		flex-grow: 2;
+	}
+
+	.break {
+		display: flex;
+		flex-basis: 100%;
 	}
 
 	/* Gets rid of hover effect for smaller tablet when button is clicked */
