@@ -75,8 +75,8 @@ Programmer: Brandon El Haj
 					<li id="bot_space_green"><a href="https://www.pipsychiatry.com/location.php">LOCATION</a></li>
 					<!-- Mobile messenging apps added to navigation -->
 					<li class="nav_apps"><a href="https://app.sprucehealth.com/login" id="green_type_spruce"><span id="thin_mobile_spruce">Spruce</span><br><span class="bottom_line">Messenger</span></a></li>
-					<li class="nav_apps"><a href="https://www.valantmed.com/Portal/PortlandIntegrativePsychiatry" id="green_type_valant"><span id="thin_mobile_valant">Valant</span><br><span class="bottom_line">Patient Portal</span></a></li>
-					<li class="nav_apps"><a href="https://www.navicurepayments.com/pip/pay#!/" id="green_type_payments"><span class="bottom_line">Payments</span></a></li>
+					<li class="nav_apps"><a href="https://pipsychiatry.md-hq.com/" id="green_type_portal"><span class="bottom_line">Patient Portal</span></a></li>
+					<li class="nav_apps"><a href="https://pipsychiatry.md-hq.com/" id="green_type_payments"><span class="bottom_line">Payments</span></a></li>
 				</ul>
 				<div class="bot_space_beige"></div>
 			</div>

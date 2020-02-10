@@ -772,13 +772,13 @@ a[href^="tel"] {
 }
 
 /* Schedule button PNG file with dimensions 106px by 21px */
-#valant_button {
-	background-image: url(/assets/valant_button.svg);
+#portal_button {
+	background-image: url(/assets/portal_button.svg);
 }
 
 /* Changes background image of button to hovered version. */
-#valant_button:hover {
-	background-image: url(/assets/valant_button_hover.svg);
+#portal_button:hover {
+	background-image: url(/assets/portal_button_hover.svg);
 }
 
 /* Pay button PNG file with dimensions 106px by 21px */
@@ -792,7 +792,7 @@ a[href^="tel"] {
 }
 
 /* Call to action button styling in the footer */
-#pay_button, #spruce_button, #valant_button {
+#pay_button, #spruce_button, #portal_button {
 	margin-top: 35px;
 	width: 84px;
 	height: 38px;
@@ -1086,7 +1086,7 @@ a[href^="tel"] {
 	}
 	
 	/* Green type styling for lower messaging apps */
-	#green_type_valant {
+	#green_type_portal {
 		color: #003b41;
 		font-family: 'Barlow', sans-serif;
 		font-weight: 700;
@@ -1109,15 +1109,6 @@ a[href^="tel"] {
 
 	/* Thin type styling for upper half of messaging apps title */
 	#thin_mobile_spruce {
-		font-family: 'Barlow', sans-serif;
-		font-weight: 300;
-		font-size: 18px;
-		padding-left: 0;
-		padding-bottom: 0;
-	}
-	
-	/* Thin type styling for upper half of messaging apps title */
-	#thin_mobile_valant {
 		font-family: 'Barlow', sans-serif;
 		font-weight: 300;
 		font-size: 18px;
@@ -1475,7 +1466,7 @@ a[href^="tel"] {
 	}
 
 	/* Hides the medical messaging app buttons for mobile */
-	#pay_button, #spruce_button, #valant_button {
+	#pay_button, #spruce_button, #portal_button {
 		display: none;
 	}
 
@@ -1807,12 +1798,12 @@ a[href^="tel"] {
 	}
 
 	/* Positioning for payment button in footer. */
-	#pay_button, #valant_button, #spruce_button {
+	#pay_button, #portal_button, #spruce_button {
 		margin-top: 10px;	
 	}
 
 	/* Stacks payment and scheduling button for the tablet version */
-	#pay_button, #valant_button, #spruce_button {
+	#pay_button, #portal_button, #spruce_button {
 		display: inline-block;
 		margin-left: auto;
 		margin-right: auto;
@@ -1830,13 +1821,13 @@ a[href^="tel"] {
 	}
 
 	/* Gets rid of hover effect for tablet when button is clicked */
-	#valant_button:link {
-		background-image: url(/assets/valant_button.svg);
+	#portal_button:link {
+		background-image: url(/assets/portal_button.svg);
 	}
 
 	/* Gets rid of hover effect for tablet when button is clicked */
-	#valant_button:active {
-		background-image: url(/assets/valant_button.svg);
+	#portal_button:active {
+		background-image: url(/assets/portal_button.svg);
 	}
 
 	/* Gets rid of hover effect for tablet when button is clicked */
@@ -2052,7 +2043,7 @@ a[href^="tel"] {
 		display: none;
 	}
 
-	#pay_button, #spruce_button, #valant_button {
+	#pay_button, #spruce_button, #portal_button {
 		margin-top: 22px;
 	}
 	
@@ -2067,13 +2058,13 @@ a[href^="tel"] {
 	}
 
 	/* Gets rid of hover effect for tablet when button is clicked */
-	#valant_button:link {
-		background-image: url(/assets/valant_button.svg);
+	#portal_button:link {
+		background-image: url(/assets/portal_button.svg);
 	}
 
 	/* Gets rid of hover effect for tablet when button is clicked */
-	#valant_button:active {
-		background-image: url(/assets/valant_button.svg);
+	#portal_button:active {
+		background-image: url(/assets/portal_button.svg);
 	}
 
 	/* Gets rid of hover effect for tablet when button is clicked */
