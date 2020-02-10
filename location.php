@@ -36,7 +36,7 @@ Programmer: Brandon El Haj
 					</p>
 					<!-- Thick font for contact info -->
 					<p class="location_contact_thick">
-						14523 Westlake Drive, Suite 4<br> Lake Oswego, OR 97035<br>
+						14523 Westlake Drive, &#x23;4<br> Lake Oswego, OR 97035<br>
 						<br>
 						<!-- Portland Integrative Psychiatry phone and fax number. -->
 						<span id="thin_phone">P</span> &#x7C; <a href="tel:+15037655856">503.765.5856</a><br>

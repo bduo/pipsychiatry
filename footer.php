@@ -27,12 +27,12 @@ Programmer: Brandon El Haj
 					<a href="https://app.sprucehealth.com/login" id="spruce_button" target="_blank"></a>
 					<!-- Puts a gap between footer buttons. -->
 					<div class="divider_foot"></div>
-					<!-- Valent Patient Portal button. SVG file with dimensions 84px by 38px -->
-					<a href="https://www.valantmed.com/Portal/PortlandIntegrativePsychiatry" id="valant_button" target="_blank"></a>
+					<!-- Patient Portal button. SVG file with dimensions 84px by 38px -->
+					<a href="https://pipsychiatry.md-hq.com/" id="portal_button" target="_blank"></a>
 					<!-- Puts a gap between footer buttons. -->
 					<div class="divider_foot"></div>
 					<!-- Payments Portal button. SVG file with dimensions 84px by 38px -->
-					<a href="https://www.navicurepayments.com/pip/pay#!/" id="pay_button" target="_blank"></a>
+					<a href="https://pipsychiatry.md-hq.com/" id="pay_button" target="_blank"></a>
 				</div>
 				<!-- Copyright info for desktop -->
 				<p class="copyright">
@@ -45,7 +45,7 @@ Programmer: Brandon El Haj
 				<p class="footer_contact">
 					Tracy Filley, PMHNP-BC<br>
 					Portland Integrative Psychiatry<br>
-					14523 Westlake Drive, Suite 4<br>
+					14523 Westlake Drive, &#x23;4<br>
 					Lake Oswego, OR 97035<br>
 					<br>
 					<!-- Portland Integrative Psychiatry phone and fax number -->
